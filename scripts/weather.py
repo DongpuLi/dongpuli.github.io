@@ -27,31 +27,7 @@ COUNTY_COORDINATES = {
 }
 
 
-def fetch_weather_forecast_for_coordinates(latitude: float, longitude: float) -> list[dict]:
-    params = {
-        "latitude": latitude,
-        "longitude": longitude,
-        "timezone": TIMEZONE,
-        "forecast_days": 7,
-        "wind_speed_unit": "kmh",
-        "precipitation_unit": "mm",
-        "daily": ",".join([
-            "temperature_2m_max",
-            "temperature_2m_min",
-            "relative_humidity_2m_mean",
-            "precipitation_sum",
-            "rain_sum",
-            "wind_speed_10m_max",
-            "wind_gusts_10m_max",
-        ]),
-    }
-
-    response = requests.get(OPEN_METEO_URL, params=params, timeout=30)
-    response.raise_for_status()
-
-    data = response.json()
-    daily = data["daily"]
-
+def _records_from_daily(daily: dict) -> list[dict]:
     records = []
 
     for i, date in enumerate(daily["time"]):
@@ -71,25 +47,74 @@ def fetch_weather_forecast_for_coordinates(latitude: float, longitude: float) ->
 
 def fetch_weather_forecast(county_id: str = "Halifax-County") -> list[dict]:
     county = COUNTY_COORDINATES[county_id]
-    return fetch_weather_forecast_for_coordinates(
-        county["latitude"],
-        county["longitude"],
-    )
+
+    params = {
+        "latitude": county["latitude"],
+        "longitude": county["longitude"],
+        "timezone": TIMEZONE,
+        "forecast_days": 7,
+        "wind_speed_unit": "kmh",
+        "precipitation_unit": "mm",
+        "daily": ",".join([
+            "temperature_2m_max",
+            "temperature_2m_min",
+            "relative_humidity_2m_mean",
+            "precipitation_sum",
+            "rain_sum",
+            "wind_speed_10m_max",
+            "wind_gusts_10m_max",
+        ]),
+    }
+
+    response = requests.get(OPEN_METEO_URL, params=params, timeout=90)
+    response.raise_for_status()
+
+    return _records_from_daily(response.json()["daily"])
 
 
 def fetch_all_county_weather() -> dict:
+    county_items = list(COUNTY_COORDINATES.items())
+
+    params = {
+        "latitude": ",".join(str(item[1]["latitude"]) for item in county_items),
+        "longitude": ",".join(str(item[1]["longitude"]) for item in county_items),
+        "timezone": TIMEZONE,
+        "forecast_days": 7,
+        "wind_speed_unit": "kmh",
+        "precipitation_unit": "mm",
+        "daily": ",".join([
+            "temperature_2m_max",
+            "temperature_2m_min",
+            "relative_humidity_2m_mean",
+            "precipitation_sum",
+            "rain_sum",
+            "wind_speed_10m_max",
+            "wind_gusts_10m_max",
+        ]),
+    }
+
+    response = requests.get(OPEN_METEO_URL, params=params, timeout=120)
+    response.raise_for_status()
+
+    data = response.json()
+
+    if not isinstance(data, list):
+        data = [data]
+
+    if len(data) != len(county_items):
+        raise RuntimeError(
+            f"Open-Meteo returned {len(data)} locations, expected {len(county_items)}"
+        )
+
     output = {}
 
-    for county_id, county in COUNTY_COORDINATES.items():
+    for (county_id, county), county_data in zip(county_items, data):
         output[county_id] = {
             "county_id": county_id,
             "county": county["name"],
             "latitude": county["latitude"],
             "longitude": county["longitude"],
-            "forecast": fetch_weather_forecast_for_coordinates(
-                county["latitude"],
-                county["longitude"],
-            ),
+            "forecast": _records_from_daily(county_data["daily"]),
         }
 
     return output
