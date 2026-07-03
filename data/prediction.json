@@ -1,0 +1,142 @@
+[
+  {
+    "date": "2026-07-03",
+    "horizon_days": 0,
+    "predicted_level": "yellow",
+    "confidence": 70,
+    "model": "rule",
+    "score": 3,
+    "reason": "hot day, little or no rain",
+    "weather": {
+      "date": "2026-07-03",
+      "temperature_max_c": 33.2,
+      "temperature_min_c": 16.0,
+      "humidity_mean_percent": 74,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 18.9,
+      "wind_gust_max_kmh": 31.0,
+      "dry_streak_days": 1
+    }
+  },
+  {
+    "date": "2026-07-04",
+    "horizon_days": 1,
+    "predicted_level": "yellow",
+    "confidence": 70,
+    "model": "rule",
+    "score": 3,
+    "reason": "hot day, little or no rain",
+    "weather": {
+      "date": "2026-07-04",
+      "temperature_max_c": 29.9,
+      "temperature_min_c": 19.8,
+      "humidity_mean_percent": 68,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 19.9,
+      "wind_gust_max_kmh": 34.9,
+      "dry_streak_days": 2
+    }
+  },
+  {
+    "date": "2026-07-05",
+    "horizon_days": 2,
+    "predicted_level": "yellow",
+    "confidence": 70,
+    "model": "rule",
+    "score": 3,
+    "reason": "little or no rain, moderate wind, short dry spell",
+    "weather": {
+      "date": "2026-07-05",
+      "temperature_max_c": 22.4,
+      "temperature_min_c": 13.2,
+      "humidity_mean_percent": 69,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 21.8,
+      "wind_gust_max_kmh": 35.6,
+      "dry_streak_days": 3
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "horizon_days": 3,
+    "predicted_level": "yellow",
+    "confidence": 70,
+    "model": "rule",
+    "score": 3,
+    "reason": "warm day, little or no rain, short dry spell",
+    "weather": {
+      "date": "2026-07-06",
+      "temperature_max_c": 26.9,
+      "temperature_min_c": 11.4,
+      "humidity_mean_percent": 63,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 19.1,
+      "wind_gust_max_kmh": 20.9,
+      "dry_streak_days": 4
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "horizon_days": 4,
+    "predicted_level": "yellow",
+    "confidence": 75,
+    "model": "rule",
+    "score": 4,
+    "reason": "warm day, little or no rain, several dry days",
+    "weather": {
+      "date": "2026-07-07",
+      "temperature_max_c": 23.4,
+      "temperature_min_c": 12.9,
+      "humidity_mean_percent": 72,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 17.7,
+      "wind_gust_max_kmh": 37.8,
+      "dry_streak_days": 5
+    }
+  },
+  {
+    "date": "2026-07-08",
+    "horizon_days": 5,
+    "predicted_level": "yellow",
+    "confidence": 70,
+    "model": "rule",
+    "score": 3,
+    "reason": "little or no rain, several dry days",
+    "weather": {
+      "date": "2026-07-08",
+      "temperature_max_c": 22.2,
+      "temperature_min_c": 10.1,
+      "humidity_mean_percent": 77,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 13.6,
+      "wind_gust_max_kmh": 15.5,
+      "dry_streak_days": 6
+    }
+  },
+  {
+    "date": "2026-07-09",
+    "horizon_days": 6,
+    "predicted_level": "yellow",
+    "confidence": 75,
+    "model": "rule",
+    "score": 4,
+    "reason": "warm day, little or no rain, several dry days",
+    "weather": {
+      "date": "2026-07-09",
+      "temperature_max_c": 23.1,
+      "temperature_min_c": 11.7,
+      "humidity_mean_percent": 80,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 16.4,
+      "wind_gust_max_kmh": 42.8,
+      "dry_streak_days": 7
+    }
+  }
+]

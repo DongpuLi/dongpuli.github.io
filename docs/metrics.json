@@ -1,0 +1,120 @@
+{
+  "version": "4.0",
+  "primary_metric": "one_day_ahead",
+  "total_evaluated": 0,
+  "correct": 0,
+  "accuracy": null,
+  "all_evaluated": {
+    "total": 1,
+    "correct": 1,
+    "accuracy": 1.0
+  },
+  "by_horizon": {
+    "1": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "2": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "3": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "4": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "5": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "6": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "7": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    }
+  },
+  "by_actual_level": {
+    "green": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "yellow": {
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    "red": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "unknown": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    }
+  },
+  "by_predicted_level": {
+    "green": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "yellow": {
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    "red": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "unknown": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    }
+  },
+  "confusion_matrix": {
+    "green": {
+      "green": 0,
+      "yellow": 0,
+      "red": 0,
+      "unknown": 0
+    },
+    "yellow": {
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "unknown": 0
+    },
+    "red": {
+      "green": 0,
+      "yellow": 0,
+      "red": 0,
+      "unknown": 0
+    },
+    "unknown": {
+      "green": 0,
+      "yellow": 0,
+      "red": 0,
+      "unknown": 0
+    }
+  },
+  "updated_at": "2026-07-03T14:08:33-03:00"
+}

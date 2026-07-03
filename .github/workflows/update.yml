@@ -1,0 +1,53 @@
+name: Daily Halifax Burn Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs twice daily to cover Halifax daylight/standard time.
+    # 17:01 UTC = 14:01 ADT during daylight saving time.
+    # 18:01 UTC = 14:01 AST during standard time.
+    # update.py decides whether Halifax local time is after 2 p.m.
+    - cron: "1 17 * * *"
+    - cron: "1 18 * * *"
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-halifax-burn-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run update
+        run: python scripts/update.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data docs
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily Halifax burn update"
+            git push
+          fi

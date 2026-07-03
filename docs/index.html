@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nova Scotia Burn Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="status-unknown">
+  <div class="page-shade"></div>
+
+  <main>
+    <header class="hero">
+      <div>
+        <h1>🔥 Nova Scotia Burn Restriction Tracker</h1>
+        <p>County-level fire restriction status for Nova Scotia</p>
+      </div>
+      <div id="updated" class="updated"></div>
+    </header>
+
+    <section class="status-layout">
+      <section class="character-panel"></section>
+
+      <section class="card primary-card">
+        <div class="label">Selected county</div>
+        <div id="county-name" class="county-name">Halifax County</div>
+        <div id="today" class="today">Loading...</div>
+        <div id="status" class="status"></div>
+        <div id="window" class="window"></div>
+        <a id="source" target="_blank" rel="noopener">Official source</a>
+      </section>
+    </section>
+
+    <section class="card">
+      <div class="label">Nova Scotia county map</div>
+      <div id="map-container" class="map-container">Loading map...</div>
+      <div id="selected-county" class="selected-county">Default: Halifax County</div>
+    </section>
+
+    <section class="card">
+      <div class="label">Burn restriction levels</div>
+
+      <div class="legend-grid three-levels">
+        <div class="legend-item green-card">
+          <span class="dot green-bg"></span>
+          <strong>Green</strong>
+          <p>Burning allowed between 2 p.m. and 8 a.m.</p>
+        </div>
+
+        <div class="legend-item yellow-card">
+          <span class="dot yellow-bg"></span>
+          <strong>Yellow</strong>
+          <p>Burning allowed between 7 p.m. and 8 a.m.</p>
+        </div>
+
+        <div class="legend-item red-card">
+          <span class="dot red-bg"></span>
+          <strong>Red</strong>
+          <p>Burning is not allowed.</p>
+        </div>
+      </div>
+
+      <div class="legend-note">
+        From 8 a.m. to 2 p.m. during wildfire risk season, the display is red. After 2 p.m.,
+        the official county-level restriction is shown.
+      </div>
+    </section>
+
+    <section class="grid">
+      <section class="card">
+        <div id="prediction-title" class="label">7-day Halifax County prediction</div>
+        <div id="predictions"></div>
+      </section>
+
+      <section class="card">
+        <div class="label">Prediction performance</div>
+        <div id="metrics" class="metrics">Not enough evaluated predictions yet.</div>
+      </section>
+    </section>
+
+    <section class="card">
+      <div id="history-title" class="label">Halifax County history</div>
+      <div id="history"></div>
+    </section>
+
+    <div class="footer-note">
+      Unofficial community project. Burn information is sourced from the Nova Scotia BurnSafe website.
+      Please verify current restrictions before burning.
+      Character artwork is used as a non-commercial fan theme and is not affiliated with or endorsed by HoYoverse.
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
