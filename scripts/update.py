@@ -300,7 +300,16 @@ def archive_county_predictions(
 def main() -> None:
     now = datetime.now(TIMEZONE)
     today = now.date().isoformat()
-    is_after_posting_time = now.hour >= POSTING_HOUR
+
+    today_already_recorded = any(
+        item.get("date") == today
+        for item in county_history.get(DEFAULT_COUNTY_ID, [])
+    )
+
+    should_write_official = (
+    now.hour >= POSTING_HOUR
+    and not today_already_recorded
+    )
 
     previous_latest = load_json("latest.json", None)
 
@@ -331,7 +340,7 @@ def main() -> None:
             county_learning.get(county_id, []),
         )
 
-    if is_after_posting_time:
+    if should_write_official:
         county_history = update_county_history(
             county_history=county_history,
             counties=counties,
@@ -401,7 +410,8 @@ def main() -> None:
 
     print("Updated.")
     print(f"Halifax time: {now.isoformat(timespec='seconds')}")
-    print(f"After 2 p.m. posting time: {is_after_posting_time}")
+    print(f"After 2 p.m. posting time: {now.hour >= POSTING_HOUR}")
+    print(f"Should write official data: {should_write_official}")
     print(f"Parsed {len(counties)} counties.")
     print(f"Generated county weather for {len(county_weather)} counties.")
     print(f"Generated county predictions for {len(predictions_by_county)} counties.")
