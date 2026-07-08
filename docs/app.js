@@ -4,6 +4,9 @@ let countiesById = {};
 let selectedCountyId = DEFAULT_COUNTY_ID;
 let countyFireWeatherById = {};
 let fireWeatherMetrics = null;
+let fireWeatherForecast = null;
+let fireWeatherActuals = null;
+let fireWeatherEvaluations = [];
 let siteMode = "active";
 let predictionsByCounty = {};
 let metricsByCounty = {};
@@ -342,9 +345,15 @@ function renderOfficialMetrics() {
   const el = document.getElementById("official-metrics");
   if (!el) return;
 
-  if (!fireWeatherMetrics || !fireWeatherMetrics.total_evaluated) {
-    el.textContent =
-      "Official FWI forecast evaluation will begin after forecast and actual records are collected.";
+  const evaluated = fireWeatherMetrics?.total_evaluated || 0;
+
+  if (!fireWeatherMetrics || evaluated === 0) {
+    el.innerHTML = `
+      <div>Official FWI forecast evaluation has started, but no forecast/actual date pair has matched yet.</div>
+      <div>Forecast date: ${fireWeatherForecast?.date || "—"}</div>
+      <div>Actuals date: ${fireWeatherActuals?.date || "—"}</div>
+      <div>Evaluation rows: ${fireWeatherEvaluations?.length || 0}</div>
+    `;
     return;
   }
 
@@ -358,6 +367,9 @@ function renderOfficialMetrics() {
       station forecasts matched actual FWI class
     </div>
     <div>Mean absolute FWI error: ${mae ?? "—"}</div>
+    <div>Evaluation rows: ${fireWeatherEvaluations?.length || 0}</div>
+    <div>Forecast date: ${fireWeatherForecast?.date || "—"}</div>
+    <div>Actuals date: ${fireWeatherActuals?.date || "—"}</div>
   `;
 }
 
@@ -463,7 +475,14 @@ function renderOfficialFireWeather(countyId) {
     </div>
 
     <div class="fire-weather-stations">
-      Stations used: ${(record.stations || []).join(", ") || "—"}
+      <div>Stations used: ${(record.stations || []).join(", ") || "—"}</div>
+      <div>Forecast date: ${fireWeatherForecast?.date || record.date || "—"}</div>
+      <div>Station-level forecast records: ${
+        fireWeatherForecast?.stations
+          ? Object.keys(fireWeatherForecast.stations).length
+          : "—"
+      }</div>
+      <div>Latest actuals date: ${fireWeatherActuals?.date || "—"}</div>
     </div>
   `;
 }
@@ -480,6 +499,9 @@ async function main() {
     historyByCounty = await loadJSON("county_history.json", {});
     countyFireWeatherById = await loadJSON("county_fire_weather.json", {});
     fireWeatherMetrics = await loadJSON("fire_weather_metrics.json", null);
+    fireWeatherForecast = await loadJSON("fire_weather_forecast.json", null);
+    fireWeatherActuals = await loadJSON("fire_weather_actuals.json", null);
+    fireWeatherEvaluations = await loadJSON("fire_weather_evaluations.json", []);
 
     const updatedEl = document.getElementById("updated");
     if (updatedEl) {
