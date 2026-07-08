@@ -630,3 +630,18 @@ body.status-offseason {
   line-height: 1.45;
   opacity: 0.76;
 }
+.metrics-block {
+  margin-top: 12px;
+}
+
+.metrics-block + .metrics-block {
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.metrics-subtitle {
+  margin-bottom: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.78;
+}

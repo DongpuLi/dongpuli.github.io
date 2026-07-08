@@ -127,14 +127,30 @@
 
     <section class="grid">
       <section id="prediction-card" class="card">
-        <div id="prediction-title" class="label">7-day Halifax County prediction</div>
+        <div id="prediction-title" class="label">Experimental 7-day Halifax County risk outlook</div>
+        <div class="prediction-disclaimer">
+        This 7-day outlook is experimental and based on weather forecasts. Official BurnSafe restrictions and official Fire Weather Index data remain authoritative.
+        </div>
         <div id="predictions"></div>
       </section>
 
       <section class="card">
-        <div class="label">Prediction performance</div>
-        <div id="metrics" class="metrics">Not enough evaluated predictions yet.</div>
-      </section>
+        <div class="label">Forecast performance</div>
+
+       <div class="metrics-block">
+        <div class="metrics-subtitle">Official FWI forecast vs actual</div>
+        <div id="official-metrics" class="metrics">
+          Not enough official FWI evaluations yet.
+        </div>
+      </div>
+
+      <div class="metrics-block">
+        <div class="metrics-subtitle">Experimental 7-day outlook vs BurnSafe</div>
+        <div id="metrics" class="metrics">
+          Not enough evaluated outlooks yet.
+        </div>
+      </div>
+    </section>
     </section>
 
     <section class="card">

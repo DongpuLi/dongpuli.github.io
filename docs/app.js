@@ -234,6 +234,7 @@ if (historyTitle) {
   if (svgEl) svgEl.classList.add("county-selected");
 
   renderOfficialFireWeather(county.id);
+  renderOfficialMetrics();
   renderPredictions(predictionsByCounty[county.id] || []);
   renderMetrics(metricsByCounty[county.id] || null);
   renderHistory(historyByCounty[county.id] || []);
@@ -334,6 +335,13 @@ function renderMetrics(metrics) {
     <div><strong>${accuracy}%</strong> accuracy</div>
     <div>${metrics.correct} / ${metrics.total_evaluated} predictions correct</div>
   `;
+}
+
+function renderOfficialMetrics() {
+  const el = document.getElementById("official-metrics");
+  if (!el) return;
+
+  el.textContent = "Official FWI forecast evaluation will begin after forecast and actual records are collected.";
 }
 
 function renderHistory(history) {
