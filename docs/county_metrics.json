@@ -1,110 +1,110 @@
 {
   "Annapolis-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Antigonish-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Cape-Breton-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 5,
+    "accuracy": 0.833,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Colchester-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Cumberland-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Digby-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Guysborough-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Halifax-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Hants-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Inverness-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 4,
+    "accuracy": 0.667,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Kings-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Lunenburg-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Pictou-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Queens-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Richmond-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 5,
+    "accuracy": 0.833,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Shelburne-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Victoria-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 3,
+    "accuracy": 0.5,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   },
   "Yarmouth-County": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": null,
-    "model_note": "Metrics recalculated after v1.1.1 historical yellow backfill."
+    "total_evaluated": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "model_note": "Pre-v1.1.1 outlook history was retrospectively evaluated as yellow."
   }
 }
