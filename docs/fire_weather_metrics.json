@@ -1,6 +1,6 @@
 {
-  "total_evaluated": 62,
-  "correct_class": 40,
-  "class_accuracy": 0.645,
-  "mean_absolute_error": 2.77
+  "total_evaluated": 93,
+  "correct_class": 57,
+  "class_accuracy": 0.613,
+  "mean_absolute_error": 2.94
 }
