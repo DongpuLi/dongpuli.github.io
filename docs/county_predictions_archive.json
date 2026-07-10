@@ -565,8 +565,9 @@
         "wind_gust_max_kmh": 25.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -743,8 +744,9 @@
         "wind_gust_max_kmh": 17.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -920,8 +922,9 @@
         "wind_gust_max_kmh": 17.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -1096,8 +1099,9 @@
         "wind_gust_max_kmh": 30.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "red",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -1816,8 +1820,9 @@
         "wind_gust_max_kmh": 27.7,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -1994,8 +1999,9 @@
         "wind_gust_max_kmh": 27.7,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -2171,8 +2177,9 @@
         "wind_gust_max_kmh": 30.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -2347,8 +2354,9 @@
         "wind_gust_max_kmh": 32.0,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -3067,8 +3075,9 @@
         "wind_gust_max_kmh": 35.3,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -3245,8 +3254,9 @@
         "wind_gust_max_kmh": 33.8,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -3422,8 +3432,9 @@
         "wind_gust_max_kmh": 34.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -3598,8 +3609,9 @@
         "wind_gust_max_kmh": 23.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -4318,8 +4330,9 @@
         "wind_gust_max_kmh": 22.3,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -4496,8 +4509,9 @@
         "wind_gust_max_kmh": 26.3,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -4673,8 +4687,9 @@
         "wind_gust_max_kmh": 20.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -4849,8 +4864,9 @@
         "wind_gust_max_kmh": 32.0,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -5569,8 +5585,9 @@
         "wind_gust_max_kmh": 27.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -5747,8 +5764,9 @@
         "wind_gust_max_kmh": 28.8,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -5924,8 +5942,9 @@
         "wind_gust_max_kmh": 22.3,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -6100,8 +6119,9 @@
         "wind_gust_max_kmh": 35.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -6820,8 +6840,9 @@
         "wind_gust_max_kmh": 23.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -6998,8 +7019,9 @@
         "wind_gust_max_kmh": 14.8,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -7175,8 +7197,9 @@
         "wind_gust_max_kmh": 19.1,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -7351,8 +7374,9 @@
         "wind_gust_max_kmh": 32.0,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -8071,8 +8095,9 @@
         "wind_gust_max_kmh": 33.8,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -8249,8 +8274,9 @@
         "wind_gust_max_kmh": 40.3,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -8426,8 +8452,9 @@
         "wind_gust_max_kmh": 37.1,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -8602,8 +8629,9 @@
         "wind_gust_max_kmh": 39.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -9322,8 +9350,9 @@
         "wind_gust_max_kmh": 24.5,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -9500,8 +9529,9 @@
         "wind_gust_max_kmh": 24.5,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -9677,8 +9707,9 @@
         "wind_gust_max_kmh": 22.3,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -9853,8 +9884,9 @@
         "wind_gust_max_kmh": 20.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -10573,8 +10605,9 @@
         "wind_gust_max_kmh": 13.7,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -10751,8 +10784,9 @@
         "wind_gust_max_kmh": 23.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -10928,8 +10962,9 @@
         "wind_gust_max_kmh": 17.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -11104,8 +11139,9 @@
         "wind_gust_max_kmh": 23.8,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -11824,8 +11860,9 @@
         "wind_gust_max_kmh": 31.0,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -12002,8 +12039,9 @@
         "wind_gust_max_kmh": 28.1,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -12179,8 +12217,9 @@
         "wind_gust_max_kmh": 34.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -12355,8 +12394,9 @@
         "wind_gust_max_kmh": 32.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -13075,8 +13115,9 @@
         "wind_gust_max_kmh": 16.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -13253,8 +13294,9 @@
         "wind_gust_max_kmh": 29.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -13430,8 +13472,9 @@
         "wind_gust_max_kmh": 22.7,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -13606,8 +13649,9 @@
         "wind_gust_max_kmh": 28.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "red",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -14326,8 +14370,9 @@
         "wind_gust_max_kmh": 21.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -14504,8 +14549,9 @@
         "wind_gust_max_kmh": 16.9,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -14681,8 +14727,9 @@
         "wind_gust_max_kmh": 24.8,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -14857,8 +14904,9 @@
         "wind_gust_max_kmh": 25.9,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -15577,8 +15625,9 @@
         "wind_gust_max_kmh": 20.5,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -15755,8 +15804,9 @@
         "wind_gust_max_kmh": 24.1,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -15932,8 +15982,9 @@
         "wind_gust_max_kmh": 28.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -16108,8 +16159,9 @@
         "wind_gust_max_kmh": 31.0,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -16828,8 +16880,9 @@
         "wind_gust_max_kmh": 25.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -17006,8 +17059,9 @@
         "wind_gust_max_kmh": 17.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -17183,8 +17237,9 @@
         "wind_gust_max_kmh": 31.7,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -17359,8 +17414,9 @@
         "wind_gust_max_kmh": 27.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -18079,8 +18135,9 @@
         "wind_gust_max_kmh": 34.9,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -18257,8 +18314,9 @@
         "wind_gust_max_kmh": 38.5,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -18434,8 +18492,9 @@
         "wind_gust_max_kmh": 31.3,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -18610,8 +18669,9 @@
         "wind_gust_max_kmh": 33.8,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -19330,8 +19390,9 @@
         "wind_gust_max_kmh": 25.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -19508,8 +19569,9 @@
         "wind_gust_max_kmh": 20.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -19685,8 +19747,9 @@
         "wind_gust_max_kmh": 34.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -19861,8 +19924,9 @@
         "wind_gust_max_kmh": 26.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -20581,8 +20645,9 @@
         "wind_gust_max_kmh": 39.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -20759,8 +20824,9 @@
         "wind_gust_max_kmh": 32.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -20936,8 +21002,9 @@
         "wind_gust_max_kmh": 33.5,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -21112,8 +21179,9 @@
         "wind_gust_max_kmh": 32.0,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
@@ -21832,8 +21900,9 @@
         "wind_gust_max_kmh": 26.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-06",
@@ -22010,8 +22079,9 @@
         "wind_gust_max_kmh": 24.5,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-07",
@@ -22187,8 +22257,9 @@
         "wind_gust_max_kmh": 38.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": false,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-08",
@@ -22363,8 +22434,9 @@
         "wind_gust_max_kmh": 25.2,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null
+      "actual_level": "yellow",
+      "correct": true,
+      "evaluated_at": "2026-07-10T07:18:11-03:00"
     },
     {
       "issued_date": "2026-07-09",
