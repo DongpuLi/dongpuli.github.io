@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://dongpuli.github.io/NovaScotia-burn-restriction-tracker/sitemap-main.xml</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://dongpuli.github.io/</loc>
     <lastmod>2026-07-10</lastmod>
-  </sitemap>
-</sitemapindex>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

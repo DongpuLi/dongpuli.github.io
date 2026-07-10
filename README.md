@@ -1,5 +1,5 @@
 # NovaScotia-burn-restriction-tracker
-(https://dongpuli.github.io/NovaScotia-burn-restriction-tracker)
+(https://dongpuli.github.io)
 ## Features
 
 - Daily official Nova Scotia BurnSafe restriction status

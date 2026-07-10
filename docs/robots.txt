@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://dongpuli.github.io/NovaScotia-burn-restriction-tracker/sitemap.xml
+Sitemap: https://dongpuli.github.io/sitemap.xml
