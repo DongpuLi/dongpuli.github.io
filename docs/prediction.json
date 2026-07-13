@@ -21,7 +21,7 @@
     "official_fire_weather": {
       "county_id": "Halifax-County",
       "date": "2026-07-13",
-      "updated_at": "2026-07-13T07:14:34-03:00",
+      "updated_at": "2026-07-13T07:24:22-03:00",
       "timezone": "America/Halifax",
       "source": "https://novascotia.ca/natr/forestprotection/wildfire/fwi/FWIforecast.xml",
       "stations": [
