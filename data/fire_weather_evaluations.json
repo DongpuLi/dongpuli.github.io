@@ -4028,5 +4028,315 @@
     "actual_class": "low",
     "correct_class": true,
     "absolute_error": 1.2
+  },
+  {
+    "date": "2026-07-21",
+    "station": "CHIGNECTO",
+    "forecast_fwi": 6.0,
+    "actual_fwi": 13.9,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 7.9
+  },
+  {
+    "date": "2026-07-21",
+    "station": "COXHEATH",
+    "forecast_fwi": 2.2,
+    "actual_fwi": 9.4,
+    "forecast_class": "low",
+    "actual_class": "moderate",
+    "correct_class": false,
+    "absolute_error": 7.2
+  },
+  {
+    "date": "2026-07-21",
+    "station": "EAST KEMPTVILLE",
+    "forecast_fwi": 6.7,
+    "actual_fwi": 16.1,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 9.400000000000002
+  },
+  {
+    "date": "2026-07-21",
+    "station": "ECONOMY LAKE",
+    "forecast_fwi": 0.7,
+    "actual_fwi": 3.7,
+    "forecast_class": "low",
+    "actual_class": "low",
+    "correct_class": true,
+    "absolute_error": 3.0
+  },
+  {
+    "date": "2026-07-21",
+    "station": "FALKLAND RIDGE",
+    "forecast_fwi": 8.4,
+    "actual_fwi": 12.1,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 3.6999999999999993
+  },
+  {
+    "date": "2026-07-21",
+    "station": "GRAND RIVER FALLS",
+    "forecast_fwi": 1.6,
+    "actual_fwi": 3.1,
+    "forecast_class": "low",
+    "actual_class": "low",
+    "correct_class": true,
+    "absolute_error": 1.5
+  },
+  {
+    "date": "2026-07-21",
+    "station": "INDIAN FALLS",
+    "forecast_fwi": 8.1,
+    "actual_fwi": 11.9,
+    "forecast_class": "moderate",
+    "actual_class": "moderate",
+    "correct_class": true,
+    "absolute_error": 3.8000000000000007
+  },
+  {
+    "date": "2026-07-21",
+    "station": "KEIZER MEADOWS",
+    "forecast_fwi": 3.9,
+    "actual_fwi": 13.3,
+    "forecast_class": "low",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 9.4
+  },
+  {
+    "date": "2026-07-21",
+    "station": "KEPPOCH MOUNTAIN",
+    "forecast_fwi": 5.7,
+    "actual_fwi": 13.0,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 7.3
+  },
+  {
+    "date": "2026-07-21",
+    "station": "LAWRENCETOWN",
+    "forecast_fwi": 6.5,
+    "actual_fwi": 17.1,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 10.600000000000001
+  },
+  {
+    "date": "2026-07-21",
+    "station": "MACLEOD SETTLEMENT",
+    "forecast_fwi": 1.9,
+    "actual_fwi": 7.2,
+    "forecast_class": "low",
+    "actual_class": "moderate",
+    "correct_class": false,
+    "absolute_error": 5.300000000000001
+  },
+  {
+    "date": "2026-07-21",
+    "station": "MARGAREE",
+    "forecast_fwi": 3.9,
+    "actual_fwi": 10.2,
+    "forecast_class": "low",
+    "actual_class": "moderate",
+    "correct_class": false,
+    "absolute_error": 6.299999999999999
+  },
+  {
+    "date": "2026-07-21",
+    "station": "MARINETTE",
+    "forecast_fwi": 0.9,
+    "actual_fwi": 6.6,
+    "forecast_class": "low",
+    "actual_class": "moderate",
+    "correct_class": false,
+    "absolute_error": 5.699999999999999
+  },
+  {
+    "date": "2026-07-21",
+    "station": "MCLELLANS BROOK",
+    "forecast_fwi": 8.1,
+    "actual_fwi": 13.7,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 5.6
+  },
+  {
+    "date": "2026-07-21",
+    "station": "MEAGHERS HILL",
+    "forecast_fwi": 1.9,
+    "actual_fwi": 12.7,
+    "forecast_class": "low",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 10.799999999999999
+  },
+  {
+    "date": "2026-07-21",
+    "station": "MILTON",
+    "forecast_fwi": 6.3,
+    "actual_fwi": 19.8,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 13.5
+  },
+  {
+    "date": "2026-07-21",
+    "station": "NORMAN TOWER",
+    "forecast_fwi": 1.4,
+    "actual_fwi": 9.3,
+    "forecast_class": "low",
+    "actual_class": "moderate",
+    "correct_class": false,
+    "absolute_error": 7.9
+  },
+  {
+    "date": "2026-07-21",
+    "station": "NORTH MOUNTAIN",
+    "forecast_fwi": 3.0,
+    "actual_fwi": 8.8,
+    "forecast_class": "low",
+    "actual_class": "moderate",
+    "correct_class": false,
+    "absolute_error": 5.800000000000001
+  },
+  {
+    "date": "2026-07-21",
+    "station": "ONSLOW MOUNTAIN",
+    "forecast_fwi": 5.7,
+    "actual_fwi": 6.7,
+    "forecast_class": "moderate",
+    "actual_class": "moderate",
+    "correct_class": true,
+    "absolute_error": 1.0
+  },
+  {
+    "date": "2026-07-21",
+    "station": "OXFORD",
+    "forecast_fwi": 8.3,
+    "actual_fwi": 17.4,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 9.099999999999998
+  },
+  {
+    "date": "2026-07-21",
+    "station": "POCKWOCK",
+    "forecast_fwi": 1.5,
+    "actual_fwi": 13.2,
+    "forecast_class": "low",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 11.7
+  },
+  {
+    "date": "2026-07-21",
+    "station": "PORTERS LAKE",
+    "forecast_fwi": 1.1,
+    "actual_fwi": 8.6,
+    "forecast_class": "low",
+    "actual_class": "moderate",
+    "correct_class": false,
+    "absolute_error": 7.5
+  },
+  {
+    "date": "2026-07-21",
+    "station": "SHUBENACADIE",
+    "forecast_fwi": 6.7,
+    "actual_fwi": 14.6,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 7.8999999999999995
+  },
+  {
+    "date": "2026-07-21",
+    "station": "SOUTH ALTON",
+    "forecast_fwi": 5.9,
+    "actual_fwi": 22.0,
+    "forecast_class": "moderate",
+    "actual_class": "very_high",
+    "correct_class": false,
+    "absolute_error": 16.1
+  },
+  {
+    "date": "2026-07-21",
+    "station": "SOUTH RANGE",
+    "forecast_fwi": 5.6,
+    "actual_fwi": 12.0,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 6.4
+  },
+  {
+    "date": "2026-07-21",
+    "station": "STANLEY",
+    "forecast_fwi": 7.1,
+    "actual_fwi": 15.1,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 8.0
+  },
+  {
+    "date": "2026-07-21",
+    "station": "STILLWATER",
+    "forecast_fwi": 2.4,
+    "actual_fwi": 14.3,
+    "forecast_class": "low",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 11.9
+  },
+  {
+    "date": "2026-07-21",
+    "station": "TRAFALGAR",
+    "forecast_fwi": 5.2,
+    "actual_fwi": 13.3,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 8.100000000000001
+  },
+  {
+    "date": "2026-07-21",
+    "station": "UPPER OHIO",
+    "forecast_fwi": 6.9,
+    "actual_fwi": 13.6,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 6.699999999999999
+  },
+  {
+    "date": "2026-07-21",
+    "station": "WEST CLIFFORD",
+    "forecast_fwi": 7.4,
+    "actual_fwi": 13.5,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 6.1
+  },
+  {
+    "date": "2026-07-21",
+    "station": "WEST TATAMAGOUCHE",
+    "forecast_fwi": 7.4,
+    "actual_fwi": 12.8,
+    "forecast_class": "moderate",
+    "actual_class": "high",
+    "correct_class": false,
+    "absolute_error": 5.4
   }
 ]
