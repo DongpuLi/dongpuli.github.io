@@ -1,44 +1,44 @@
 {
   "version": "4.1",
   "primary_metric": "one_day_ahead",
-  "total_evaluated": 25,
-  "correct": 13,
-  "accuracy": 0.52,
+  "total_evaluated": 26,
+  "correct": 14,
+  "accuracy": 0.5385,
   "all_evaluated": {
-    "total": 161,
-    "correct": 73,
-    "accuracy": 0.4534
+    "total": 168,
+    "correct": 80,
+    "accuracy": 0.4762
   },
   "by_horizon": {
     "1": {
-      "total": 25,
-      "correct": 13,
-      "accuracy": 0.52
+      "total": 26,
+      "correct": 14,
+      "accuracy": 0.5385
     },
     "2": {
-      "total": 24,
-      "correct": 13,
-      "accuracy": 0.5417
+      "total": 25,
+      "correct": 14,
+      "accuracy": 0.56
     },
     "3": {
+      "total": 24,
+      "correct": 12,
+      "accuracy": 0.5
+    },
+    "4": {
       "total": 23,
       "correct": 11,
       "accuracy": 0.4783
     },
-    "4": {
-      "total": 22,
-      "correct": 10,
-      "accuracy": 0.4545
-    },
     "5": {
-      "total": 21,
-      "correct": 8,
-      "accuracy": 0.381
+      "total": 22,
+      "correct": 9,
+      "accuracy": 0.4091
     },
     "6": {
-      "total": 20,
-      "correct": 6,
-      "accuracy": 0.3
+      "total": 21,
+      "correct": 7,
+      "accuracy": 0.3333
     }
   },
   "by_actual_level": {
@@ -48,9 +48,9 @@
       "accuracy": 0.1429
     },
     "yellow": {
-      "total": 84,
-      "correct": 61,
-      "accuracy": 0.7262
+      "total": 91,
+      "correct": 68,
+      "accuracy": 0.7473
     },
     "red": {
       "total": 42,
@@ -70,9 +70,9 @@
       "accuracy": 0.2
     },
     "yellow": {
-      "total": 113,
-      "correct": 61,
-      "accuracy": 0.5398
+      "total": 120,
+      "correct": 68,
+      "accuracy": 0.5667
     },
     "red": {
       "total": 23,
@@ -94,7 +94,7 @@
     },
     "yellow": {
       "green": 19,
-      "yellow": 61,
+      "yellow": 68,
       "red": 4,
       "unknown": 0
     },
@@ -111,5 +111,5 @@
       "unknown": 0
     }
   },
-  "updated_at": "2026-07-28T14:01:18-03:00"
+  "updated_at": "2026-07-29T14:01:32-03:00"
 }
