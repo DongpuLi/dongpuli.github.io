@@ -1,6 +1,6 @@
 {
   "source": "https://novascotia.ca/burnsafe/",
-  "updated_text": "30 July 2026 at 2:00 pm",
+  "updated_text": "31 July 2026 at 2:00 pm",
   "counties": [
     {
       "id": "Annapolis-County",
@@ -19,8 +19,8 @@
     {
       "id": "Cape-Breton-County",
       "name": "Cape Breton County",
-      "level": "yellow",
-      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
+      "level": "green",
+      "status": "Burning is allowed between 2:00 pm and 8:00 am",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
@@ -68,8 +68,8 @@
     {
       "id": "Inverness-County",
       "name": "Inverness County",
-      "level": "yellow",
-      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
+      "level": "green",
+      "status": "Burning is allowed between 2:00 pm and 8:00 am",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
@@ -117,8 +117,8 @@
     {
       "id": "Victoria-County",
       "name": "Victoria County",
-      "level": "yellow",
-      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
+      "level": "green",
+      "status": "Burning is allowed between 2:00 pm and 8:00 am",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
@@ -129,6 +129,6 @@
       "source": "https://novascotia.ca/burnsafe/"
     }
   ],
-  "fetched_at": "2026-07-30T14:01:22-03:00",
+  "fetched_at": "2026-07-31T14:01:25-03:00",
   "timezone": "America/Halifax"
 }

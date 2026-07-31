@@ -1,51 +1,51 @@
 {
   "version": "4.1",
   "primary_metric": "one_day_ahead",
-  "total_evaluated": 27,
+  "total_evaluated": 28,
   "correct": 14,
-  "accuracy": 0.5185,
+  "accuracy": 0.5,
   "all_evaluated": {
-    "total": 175,
-    "correct": 83,
-    "accuracy": 0.4743
+    "total": 182,
+    "correct": 84,
+    "accuracy": 0.4615
   },
   "by_horizon": {
     "1": {
+      "total": 28,
+      "correct": 14,
+      "accuracy": 0.5
+    },
+    "2": {
       "total": 27,
       "correct": 14,
       "accuracy": 0.5185
     },
-    "2": {
-      "total": 26,
-      "correct": 14,
-      "accuracy": 0.5385
-    },
     "3": {
-      "total": 25,
+      "total": 26,
       "correct": 12,
-      "accuracy": 0.48
+      "accuracy": 0.4615
     },
     "4": {
-      "total": 24,
+      "total": 25,
       "correct": 11,
-      "accuracy": 0.4583
+      "accuracy": 0.44
     },
     "5": {
-      "total": 23,
+      "total": 24,
       "correct": 10,
-      "accuracy": 0.4348
+      "accuracy": 0.4167
     },
     "6": {
-      "total": 22,
+      "total": 23,
       "correct": 8,
-      "accuracy": 0.3636
+      "accuracy": 0.3478
     }
   },
   "by_actual_level": {
     "green": {
-      "total": 42,
-      "correct": 8,
-      "accuracy": 0.1905
+      "total": 49,
+      "correct": 9,
+      "accuracy": 0.1837
     },
     "yellow": {
       "total": 91,
@@ -65,14 +65,14 @@
   },
   "by_predicted_level": {
     "green": {
-      "total": 28,
-      "correct": 8,
-      "accuracy": 0.2857
+      "total": 29,
+      "correct": 9,
+      "accuracy": 0.3103
     },
     "yellow": {
-      "total": 124,
+      "total": 130,
       "correct": 68,
-      "accuracy": 0.5484
+      "accuracy": 0.5231
     },
     "red": {
       "total": 23,
@@ -87,8 +87,8 @@
   },
   "confusion_matrix": {
     "green": {
-      "green": 8,
-      "yellow": 22,
+      "green": 9,
+      "yellow": 28,
       "red": 12,
       "unknown": 0
     },
@@ -111,5 +111,5 @@
       "unknown": 0
     }
   },
-  "updated_at": "2026-07-30T14:01:24-03:00"
+  "updated_at": "2026-07-31T14:01:27-03:00"
 }
