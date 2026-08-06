@@ -1,44 +1,44 @@
 {
   "version": "4.1",
   "primary_metric": "one_day_ahead",
-  "total_evaluated": 33,
-  "correct": 16,
-  "accuracy": 0.4848,
+  "total_evaluated": 34,
+  "correct": 17,
+  "accuracy": 0.5,
   "all_evaluated": {
-    "total": 217,
-    "correct": 105,
-    "accuracy": 0.4839
+    "total": 224,
+    "correct": 111,
+    "accuracy": 0.4955
   },
   "by_horizon": {
     "1": {
-      "total": 33,
-      "correct": 16,
-      "accuracy": 0.4848
-    },
-    "2": {
-      "total": 32,
-      "correct": 16,
+      "total": 34,
+      "correct": 17,
       "accuracy": 0.5
     },
+    "2": {
+      "total": 33,
+      "correct": 17,
+      "accuracy": 0.5152
+    },
     "3": {
-      "total": 31,
-      "correct": 14,
-      "accuracy": 0.4516
+      "total": 32,
+      "correct": 15,
+      "accuracy": 0.4688
     },
     "4": {
+      "total": 31,
+      "correct": 15,
+      "accuracy": 0.4839
+    },
+    "5": {
       "total": 30,
       "correct": 14,
       "accuracy": 0.4667
     },
-    "5": {
-      "total": 29,
-      "correct": 14,
-      "accuracy": 0.4828
-    },
     "6": {
-      "total": 28,
-      "correct": 11,
-      "accuracy": 0.3929
+      "total": 29,
+      "correct": 12,
+      "accuracy": 0.4138
     }
   },
   "by_actual_level": {
@@ -48,9 +48,9 @@
       "accuracy": 0.1786
     },
     "yellow": {
-      "total": 119,
-      "correct": 88,
-      "accuracy": 0.7395
+      "total": 126,
+      "correct": 94,
+      "accuracy": 0.746
     },
     "red": {
       "total": 42,
@@ -70,14 +70,14 @@
       "accuracy": 0.2857
     },
     "yellow": {
-      "total": 156,
-      "correct": 88,
-      "accuracy": 0.5641
+      "total": 162,
+      "correct": 94,
+      "accuracy": 0.5802
     },
     "red": {
-      "total": 26,
+      "total": 27,
       "correct": 7,
-      "accuracy": 0.2692
+      "accuracy": 0.2593
     },
     "unknown": {
       "total": 0,
@@ -94,8 +94,8 @@
     },
     "yellow": {
       "green": 24,
-      "yellow": 88,
-      "red": 7,
+      "yellow": 94,
+      "red": 8,
       "unknown": 0
     },
     "red": {
@@ -111,5 +111,5 @@
       "unknown": 0
     }
   },
-  "updated_at": "2026-08-05T14:01:24-03:00"
+  "updated_at": "2026-08-06T14:53:10-03:00"
 }
