@@ -1,6 +1,6 @@
 {
   "source": "https://novascotia.ca/burnsafe/",
-  "updated_text": "07 August 2026 at 2:00 pm",
+  "updated_text": "08 August 2026 at 2:00 pm",
   "counties": [
     {
       "id": "Annapolis-County",
@@ -110,8 +110,8 @@
     {
       "id": "Shelburne-County",
       "name": "Shelburne County",
-      "level": "yellow",
-      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
+      "level": "green",
+      "status": "Burning is allowed between 2:00 pm and 8:00 am",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
@@ -129,6 +129,6 @@
       "source": "https://novascotia.ca/burnsafe/"
     }
   ],
-  "fetched_at": "2026-08-07T14:01:18-03:00",
+  "fetched_at": "2026-08-08T14:01:20-03:00",
   "timezone": "America/Halifax"
 }
