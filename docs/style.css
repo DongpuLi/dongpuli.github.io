@@ -228,6 +228,38 @@ a {
   padding: 13px 0;
 }
 
+.history-list {
+  max-height: 322px;
+  overflow-y: auto;
+  padding-right: 10px;
+  scrollbar-color: rgba(251, 191, 36, 0.65) rgba(255, 255, 255, 0.08);
+  scrollbar-width: thin;
+}
+
+.history-list:focus-visible {
+  outline: 2px solid rgba(251, 191, 36, 0.72);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.history-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.history-list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+}
+
+.history-list::-webkit-scrollbar-thumb {
+  background: rgba(251, 191, 36, 0.65);
+  border-radius: 999px;
+}
+
+.history-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(251, 191, 36, 0.85);
+}
+
 .prediction-row > div:first-child {
   flex: 1 1 auto;
   min-width: 0;
@@ -409,6 +441,10 @@ a {
   .row {
     flex-direction: column;
     gap: 6px;
+  }
+
+  .history-list {
+    max-height: 665px;
   }
 
   .prediction-row {
