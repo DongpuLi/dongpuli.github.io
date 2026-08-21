@@ -1,6 +1,6 @@
 {
   "source": "https://novascotia.ca/burnsafe/",
-  "updated_text": "20 August 2026 at 2:00 pm",
+  "updated_text": "21 August 2026 at 2:00 pm",
   "counties": [
     {
       "id": "Annapolis-County",
@@ -12,15 +12,15 @@
     {
       "id": "Antigonish-County",
       "name": "Antigonish County",
-      "level": "green",
-      "status": "Burning is allowed between 2:00 pm and 8:00 am",
+      "level": "yellow",
+      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
       "id": "Cape-Breton-County",
       "name": "Cape Breton County",
-      "level": "green",
-      "status": "Burning is allowed between 2:00 pm and 8:00 am",
+      "level": "yellow",
+      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
@@ -47,8 +47,8 @@
     {
       "id": "Guysborough-County",
       "name": "Guysborough County",
-      "level": "green",
-      "status": "Burning is allowed between 2:00 pm and 8:00 am",
+      "level": "yellow",
+      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
@@ -103,15 +103,15 @@
     {
       "id": "Richmond-County",
       "name": "Richmond County",
-      "level": "green",
-      "status": "Burning is allowed between 2:00 pm and 8:00 am",
+      "level": "yellow",
+      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
       "id": "Shelburne-County",
       "name": "Shelburne County",
-      "level": "green",
-      "status": "Burning is allowed between 2:00 pm and 8:00 am",
+      "level": "yellow",
+      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
       "source": "https://novascotia.ca/burnsafe/"
     },
     {
@@ -124,11 +124,11 @@
     {
       "id": "Yarmouth-County",
       "name": "Yarmouth County",
-      "level": "green",
-      "status": "Burning is allowed between 2:00 pm and 8:00 am",
+      "level": "yellow",
+      "status": "Burning is only allowed between 7:00 pm and 8:00 am (burning is not allowed before 7:00 pm)",
       "source": "https://novascotia.ca/burnsafe/"
     }
   ],
-  "fetched_at": "2026-08-20T14:01:15-03:00",
+  "fetched_at": "2026-08-21T14:01:15-03:00",
   "timezone": "America/Halifax"
 }
