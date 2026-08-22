@@ -1,6 +1,6 @@
 {
   "source": "https://novascotia.ca/burnsafe/",
-  "updated_text": "21 August 2026 at 2:00 pm",
+  "updated_text": "22 August 2026 at 2:00 pm",
   "counties": [
     {
       "id": "Annapolis-County",
@@ -129,6 +129,6 @@
       "source": "https://novascotia.ca/burnsafe/"
     }
   ],
-  "fetched_at": "2026-08-21T14:01:15-03:00",
+  "fetched_at": "2026-08-22T14:01:13-03:00",
   "timezone": "America/Halifax"
 }
