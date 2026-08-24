@@ -8940,9 +8940,9 @@
         "wind_gust_max_kmh": 47.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -8966,9 +8966,9 @@
         "wind_gust_max_kmh": 42.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -8992,9 +8992,9 @@
         "wind_gust_max_kmh": 49.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -9018,9 +9018,9 @@
         "wind_gust_max_kmh": 40.7,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -9044,9 +9044,9 @@
         "wind_gust_max_kmh": 45.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -9070,9 +9070,35 @@
         "wind_gust_max_kmh": 38.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Annapolis-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 2,
+      "reason": "official FWI category: low, FWI 1.8, FFMC 74.3, ISI 1.3, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 27.0,
+        "temperature_min_c": 19.5,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 17.3,
+        "wind_gust_max_kmh": 43.9,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -9205,6 +9231,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Annapolis-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 23.0,
+        "temperature_min_c": 16.3,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.7,
+        "wind_gust_max_kmh": 20.2,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Annapolis-County",
@@ -9309,6 +9361,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Annapolis-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 23.5,
+        "temperature_min_c": 14.9,
+        "humidity_mean_percent": 76,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.2,
+        "wind_gust_max_kmh": 24.1,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Annapolis-County",
@@ -9387,6 +9465,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Annapolis-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.6,
+        "temperature_min_c": 14.9,
+        "humidity_mean_percent": 71,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.9,
+        "wind_gust_max_kmh": 30.6,
+        "dry_streak_days": 4
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Annapolis-County",
@@ -9439,6 +9543,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Annapolis-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "green",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 26.8,
+        "temperature_min_c": 15.7,
+        "humidity_mean_percent": 82,
+        "precipitation_mm": 1.0,
+        "rain_mm": 0.5,
+        "wind_max_kmh": 18.8,
+        "wind_gust_max_kmh": 40.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Annapolis-County",
@@ -9458,6 +9588,58 @@
         "rain_mm": 0.0,
         "wind_max_kmh": 8.9,
         "wind_gust_max_kmh": 23.4,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Annapolis-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 22.1,
+        "temperature_min_c": 14.2,
+        "humidity_mean_percent": 76,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.6,
+        "wind_gust_max_kmh": 24.5,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Annapolis-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 24.0,
+        "temperature_min_c": 14.4,
+        "humidity_mean_percent": 66,
+        "precipitation_mm": 2.4,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 19.7,
+        "wind_gust_max_kmh": 38.5,
         "dry_streak_days": 0
       },
       "actual_level": null,
@@ -18406,9 +18588,9 @@
         "wind_gust_max_kmh": 51.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -18432,9 +18614,9 @@
         "wind_gust_max_kmh": 45.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -18458,9 +18640,9 @@
         "wind_gust_max_kmh": 46.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -18484,9 +18666,9 @@
         "wind_gust_max_kmh": 42.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -18510,9 +18692,9 @@
         "wind_gust_max_kmh": 44.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -18536,9 +18718,35 @@
         "wind_gust_max_kmh": 45.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Antigonish-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "yellow",
+      "confidence": 70,
+      "model": "official_fwi_refined",
+      "score": 4,
+      "reason": "official FWI category: low, FWI 0.3, FFMC 59.5, ISI 0.5, restricted burning window is more appropriate",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 24.7,
+        "temperature_min_c": 20.8,
+        "humidity_mean_percent": 95,
+        "precipitation_mm": 2.0,
+        "rain_mm": 1.9,
+        "wind_max_kmh": 23.0,
+        "wind_gust_max_kmh": 46.4,
+        "dry_streak_days": 0
+      },
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -18671,6 +18879,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Antigonish-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 26.2,
+        "temperature_min_c": 18.1,
+        "humidity_mean_percent": 82,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.5,
+        "wind_gust_max_kmh": 33.1,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Antigonish-County",
@@ -18775,6 +19009,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Antigonish-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "green",
+      "confidence": 69,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 24.5,
+        "temperature_min_c": 15.3,
+        "humidity_mean_percent": 88,
+        "precipitation_mm": 4.8,
+        "rain_mm": 2.1,
+        "wind_max_kmh": 10.2,
+        "wind_gust_max_kmh": 24.8,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Antigonish-County",
@@ -18853,6 +19113,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Antigonish-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "green",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.4,
+        "temperature_min_c": 13.5,
+        "humidity_mean_percent": 83,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.0,
+        "wind_gust_max_kmh": 29.5,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Antigonish-County",
@@ -18905,6 +19191,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Antigonish-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 25.5,
+        "temperature_min_c": 15.6,
+        "humidity_mean_percent": 83,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 19.1,
+        "wind_gust_max_kmh": 41.0,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Antigonish-County",
@@ -18925,6 +19237,58 @@
         "wind_max_kmh": 12.9,
         "wind_gust_max_kmh": 31.3,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Antigonish-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 22.6,
+        "temperature_min_c": 12.5,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 6.0,
+        "rain_mm": 1.5,
+        "wind_max_kmh": 16.1,
+        "wind_gust_max_kmh": 38.9,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Antigonish-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 22.3,
+        "temperature_min_c": 12.0,
+        "humidity_mean_percent": 73,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.2,
+        "wind_gust_max_kmh": 25.2,
+        "dry_streak_days": 1
       },
       "actual_level": null,
       "correct": null,
@@ -27872,9 +28236,9 @@
         "wind_gust_max_kmh": 43.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -27898,9 +28262,9 @@
         "wind_gust_max_kmh": 42.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -27924,9 +28288,9 @@
         "wind_gust_max_kmh": 37.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -27950,9 +28314,9 @@
         "wind_gust_max_kmh": 44.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -27976,9 +28340,9 @@
         "wind_gust_max_kmh": 37.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -28002,9 +28366,35 @@
         "wind_gust_max_kmh": 39.2,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cape-Breton-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 2,
+      "reason": "official FWI category: low, FWI 0.0, FFMC 20.6, ISI 0.0, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 25.3,
+        "temperature_min_c": 20.5,
+        "humidity_mean_percent": 93,
+        "precipitation_mm": 1.9,
+        "rain_mm": 1.9,
+        "wind_max_kmh": 20.1,
+        "wind_gust_max_kmh": 43.2,
+        "dry_streak_days": 0
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -28137,6 +28527,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cape-Breton-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 26.9,
+        "temperature_min_c": 19.3,
+        "humidity_mean_percent": 88,
+        "precipitation_mm": 3.2,
+        "rain_mm": 3.1,
+        "wind_max_kmh": 15.4,
+        "wind_gust_max_kmh": 32.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Cape-Breton-County",
@@ -28241,6 +28657,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cape-Breton-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 25.8,
+        "temperature_min_c": 17.3,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 3.7,
+        "rain_mm": 1.0,
+        "wind_max_kmh": 12.0,
+        "wind_gust_max_kmh": 28.4,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Cape-Breton-County",
@@ -28319,6 +28761,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cape-Breton-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.2,
+        "temperature_min_c": 15.8,
+        "humidity_mean_percent": 79,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 12.8,
+        "wind_gust_max_kmh": 25.2,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Cape-Breton-County",
@@ -28371,6 +28839,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cape-Breton-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 24.7,
+        "temperature_min_c": 16.8,
+        "humidity_mean_percent": 82,
+        "precipitation_mm": 0.6,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 17.9,
+        "wind_gust_max_kmh": 41.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Cape-Breton-County",
@@ -28391,6 +28885,58 @@
         "wind_max_kmh": 12.3,
         "wind_gust_max_kmh": 29.5,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cape-Breton-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 23.5,
+        "temperature_min_c": 14.5,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 5.1,
+        "rain_mm": 2.7,
+        "wind_max_kmh": 18.1,
+        "wind_gust_max_kmh": 41.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cape-Breton-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.8,
+        "temperature_min_c": 14.2,
+        "humidity_mean_percent": 71,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 12.2,
+        "wind_gust_max_kmh": 23.4,
+        "dry_streak_days": 1
       },
       "actual_level": null,
       "correct": null,
@@ -37338,9 +37884,9 @@
         "wind_gust_max_kmh": 51.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -37364,9 +37910,9 @@
         "wind_gust_max_kmh": 45.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -37390,9 +37936,9 @@
         "wind_gust_max_kmh": 50.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -37416,9 +37962,9 @@
         "wind_gust_max_kmh": 50.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -37442,9 +37988,9 @@
         "wind_gust_max_kmh": 44.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -37468,9 +38014,35 @@
         "wind_gust_max_kmh": 41.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Colchester-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "yellow",
+      "confidence": 70,
+      "model": "official_fwi_refined",
+      "score": 4,
+      "reason": "official FWI category: moderate, FWI 5.0, FFMC 80.8, ISI 1.8, restricted burning window is more appropriate",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 25.6,
+        "temperature_min_c": 21.3,
+        "humidity_mean_percent": 90,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 19.5,
+        "wind_gust_max_kmh": 51.8,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -37603,6 +38175,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Colchester-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 25.8,
+        "temperature_min_c": 19.5,
+        "humidity_mean_percent": 81,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 10.7,
+        "wind_gust_max_kmh": 18.4,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Colchester-County",
@@ -37707,6 +38305,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Colchester-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 23.5,
+        "temperature_min_c": 14.8,
+        "humidity_mean_percent": 80,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.6,
+        "wind_gust_max_kmh": 25.2,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Colchester-County",
@@ -37785,6 +38409,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Colchester-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.2,
+        "temperature_min_c": 13.3,
+        "humidity_mean_percent": 76,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 10.0,
+        "wind_gust_max_kmh": 19.4,
+        "dry_streak_days": 4
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Colchester-County",
@@ -37837,6 +38487,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Colchester-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 25.3,
+        "temperature_min_c": 13.3,
+        "humidity_mean_percent": 81,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 18.5,
+        "wind_gust_max_kmh": 30.6,
+        "dry_streak_days": 5
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Colchester-County",
@@ -37857,6 +38533,58 @@
         "wind_max_kmh": 17.6,
         "wind_gust_max_kmh": 51.1,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Colchester-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 21.5,
+        "temperature_min_c": 12.9,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 3.8,
+        "rain_mm": 1.8,
+        "wind_max_kmh": 13.1,
+        "wind_gust_max_kmh": 25.6,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Colchester-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 24.1,
+        "temperature_min_c": 10.8,
+        "humidity_mean_percent": 73,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 11.5,
+        "wind_gust_max_kmh": 35.6,
+        "dry_streak_days": 1
       },
       "actual_level": null,
       "correct": null,
@@ -46804,9 +47532,9 @@
         "wind_gust_max_kmh": 48.2,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -46830,9 +47558,9 @@
         "wind_gust_max_kmh": 44.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -46856,9 +47584,9 @@
         "wind_gust_max_kmh": 54.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -46882,9 +47610,9 @@
         "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -46908,9 +47636,9 @@
         "wind_gust_max_kmh": 49.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -46934,9 +47662,35 @@
         "wind_gust_max_kmh": 48.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cumberland-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 2,
+      "reason": "official FWI category: low, FWI 1.2, FFMC 72.3, ISI 1.1, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 27.6,
+        "temperature_min_c": 20.0,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 47.9,
+        "rain_mm": 47.9,
+        "wind_max_kmh": 23.5,
+        "wind_gust_max_kmh": 57.2,
+        "dry_streak_days": 0
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -47069,6 +47823,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cumberland-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 22.6,
+        "temperature_min_c": 16.8,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.8,
+        "wind_gust_max_kmh": 33.8,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Cumberland-County",
@@ -47173,6 +47953,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cumberland-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 23.0,
+        "temperature_min_c": 14.4,
+        "humidity_mean_percent": 82,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 18.3,
+        "wind_gust_max_kmh": 35.6,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Cumberland-County",
@@ -47251,6 +48057,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cumberland-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 23.7,
+        "temperature_min_c": 13.6,
+        "humidity_mean_percent": 76,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 20.4,
+        "wind_gust_max_kmh": 28.1,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Cumberland-County",
@@ -47303,6 +48135,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cumberland-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 25.7,
+        "temperature_min_c": 14.2,
+        "humidity_mean_percent": 77,
+        "precipitation_mm": 6.5,
+        "rain_mm": 6.1,
+        "wind_max_kmh": 19.4,
+        "wind_gust_max_kmh": 35.3,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Cumberland-County",
@@ -47322,6 +48180,58 @@
         "rain_mm": 2.3,
         "wind_max_kmh": 13.8,
         "wind_gust_max_kmh": 27.7,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cumberland-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 23.1,
+        "temperature_min_c": 14.0,
+        "humidity_mean_percent": 76,
+        "precipitation_mm": 1.1,
+        "rain_mm": 0.8,
+        "wind_max_kmh": 17.0,
+        "wind_gust_max_kmh": 23.4,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Cumberland-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "red",
+      "confidence": 69,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 21.6,
+        "temperature_min_c": 12.3,
+        "humidity_mean_percent": 74,
+        "precipitation_mm": 0.6,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 20.6,
+        "wind_gust_max_kmh": 42.1,
         "dry_streak_days": 0
       },
       "actual_level": null,
@@ -56270,9 +57180,9 @@
         "wind_gust_max_kmh": 47.9,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -56296,9 +57206,9 @@
         "wind_gust_max_kmh": 45.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -56322,9 +57232,9 @@
         "wind_gust_max_kmh": 50.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -56348,9 +57258,9 @@
         "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -56374,9 +57284,9 @@
         "wind_gust_max_kmh": 49.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -56400,9 +57310,35 @@
         "wind_gust_max_kmh": 43.9,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Digby-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 4,
+      "reason": "official FWI category: low, FWI 0.8, FFMC 60.7, ISI 0.7, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 26.3,
+        "temperature_min_c": 18.4,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 19.6,
+        "wind_gust_max_kmh": 48.6,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -56535,6 +57471,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Digby-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 23.1,
+        "temperature_min_c": 15.5,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 11.7,
+        "wind_gust_max_kmh": 19.4,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Digby-County",
@@ -56639,6 +57601,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Digby-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 22.5,
+        "temperature_min_c": 13.9,
+        "humidity_mean_percent": 78,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.5,
+        "wind_gust_max_kmh": 22.0,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Digby-County",
@@ -56717,6 +57705,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Digby-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.6,
+        "temperature_min_c": 14.5,
+        "humidity_mean_percent": 70,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.7,
+        "wind_gust_max_kmh": 37.1,
+        "dry_streak_days": 4
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Digby-County",
@@ -56769,6 +57783,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Digby-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "green",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 26.3,
+        "temperature_min_c": 16.6,
+        "humidity_mean_percent": 81,
+        "precipitation_mm": 1.2,
+        "rain_mm": 0.1,
+        "wind_max_kmh": 18.5,
+        "wind_gust_max_kmh": 40.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Digby-County",
@@ -56788,6 +57828,58 @@
         "rain_mm": 0.1,
         "wind_max_kmh": 9.2,
         "wind_gust_max_kmh": 23.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Digby-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 21.5,
+        "temperature_min_c": 13.9,
+        "humidity_mean_percent": 77,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.3,
+        "wind_gust_max_kmh": 26.6,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Digby-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "red",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.2,
+        "temperature_min_c": 14.6,
+        "humidity_mean_percent": 66,
+        "precipitation_mm": 0.6,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 22.0,
+        "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 0
       },
       "actual_level": null,
@@ -65736,9 +66828,9 @@
         "wind_gust_max_kmh": 47.2,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -65762,9 +66854,9 @@
         "wind_gust_max_kmh": 43.2,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -65788,9 +66880,9 @@
         "wind_gust_max_kmh": 46.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -65814,9 +66906,9 @@
         "wind_gust_max_kmh": 41.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -65840,9 +66932,9 @@
         "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -65866,9 +66958,35 @@
         "wind_gust_max_kmh": 42.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Guysborough-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "yellow",
+      "confidence": 70,
+      "model": "official_fwi_refined",
+      "score": -2,
+      "reason": "official FWI category: low, FWI 0.5, FFMC 64.9, ISI 0.7, restricted burning window is more appropriate",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 22.5,
+        "temperature_min_c": 20.5,
+        "humidity_mean_percent": 97,
+        "precipitation_mm": 3.9,
+        "rain_mm": 3.9,
+        "wind_max_kmh": 19.9,
+        "wind_gust_max_kmh": 42.8,
+        "dry_streak_days": 0
+      },
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -66001,6 +67119,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Guysborough-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 69,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 27.4,
+        "temperature_min_c": 17.5,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 0.6,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 12.6,
+        "wind_gust_max_kmh": 29.5,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Guysborough-County",
@@ -66105,6 +67249,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Guysborough-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 24.9,
+        "temperature_min_c": 15.8,
+        "humidity_mean_percent": 88,
+        "precipitation_mm": 5.4,
+        "rain_mm": 2.5,
+        "wind_max_kmh": 14.4,
+        "wind_gust_max_kmh": 34.6,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Guysborough-County",
@@ -66183,6 +67353,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Guysborough-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 25.7,
+        "temperature_min_c": 14.6,
+        "humidity_mean_percent": 83,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.2,
+        "wind_gust_max_kmh": 33.5,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Guysborough-County",
@@ -66235,6 +67431,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Guysborough-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "green",
+      "confidence": 69,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 24.5,
+        "temperature_min_c": 16.4,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 0.7,
+        "rain_mm": 0.5,
+        "wind_max_kmh": 19.9,
+        "wind_gust_max_kmh": 45.4,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Guysborough-County",
@@ -66255,6 +67477,58 @@
         "wind_max_kmh": 10.2,
         "wind_gust_max_kmh": 31.7,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Guysborough-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "green",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 23.2,
+        "temperature_min_c": 14.0,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 7.4,
+        "rain_mm": 2.2,
+        "wind_max_kmh": 18.7,
+        "wind_gust_max_kmh": 44.6,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Guysborough-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.3,
+        "temperature_min_c": 13.9,
+        "humidity_mean_percent": 69,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 12.0,
+        "wind_gust_max_kmh": 35.6,
+        "dry_streak_days": 1
       },
       "actual_level": null,
       "correct": null,
@@ -75202,9 +76476,9 @@
         "wind_gust_max_kmh": 50.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -75228,9 +76502,9 @@
         "wind_gust_max_kmh": 44.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -75254,9 +76528,9 @@
         "wind_gust_max_kmh": 48.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -75280,9 +76554,9 @@
         "wind_gust_max_kmh": 49.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -75306,9 +76580,9 @@
         "wind_gust_max_kmh": 44.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -75332,9 +76606,35 @@
         "wind_gust_max_kmh": 35.6,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Halifax-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "yellow",
+      "confidence": 70,
+      "model": "official_fwi_refined",
+      "score": 2,
+      "reason": "official FWI category: low, FWI 0.5, FFMC 61.8, ISI 0.7, restricted burning window is more appropriate",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 22.9,
+        "temperature_min_c": 20.1,
+        "humidity_mean_percent": 97,
+        "precipitation_mm": 1.4,
+        "rain_mm": 1.4,
+        "wind_max_kmh": 16.3,
+        "wind_gust_max_kmh": 48.2,
+        "dry_streak_days": 0
+      },
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -75467,6 +76767,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Halifax-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 21.4,
+        "temperature_min_c": 17.4,
+        "humidity_mean_percent": 97,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 11.3,
+        "wind_gust_max_kmh": 16.2,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Halifax-County",
@@ -75571,6 +76897,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Halifax-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 26.3,
+        "temperature_min_c": 16.0,
+        "humidity_mean_percent": 77,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 17.4,
+        "wind_gust_max_kmh": 29.5,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Halifax-County",
@@ -75649,6 +77001,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Halifax-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.1,
+        "temperature_min_c": 14.4,
+        "humidity_mean_percent": 71,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.7,
+        "wind_gust_max_kmh": 28.1,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Halifax-County",
@@ -75701,6 +77079,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Halifax-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 22.7,
+        "temperature_min_c": 14.6,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 1.2,
+        "rain_mm": 1.0,
+        "wind_max_kmh": 15.7,
+        "wind_gust_max_kmh": 32.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Halifax-County",
@@ -75721,6 +77125,58 @@
         "wind_max_kmh": 14.6,
         "wind_gust_max_kmh": 42.1,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Halifax-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 26.2,
+        "temperature_min_c": 14.0,
+        "humidity_mean_percent": 78,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.5,
+        "wind_gust_max_kmh": 27.7,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Halifax-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.5,
+        "temperature_min_c": 12.9,
+        "humidity_mean_percent": 63,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 17.4,
+        "wind_gust_max_kmh": 40.0,
+        "dry_streak_days": 2
       },
       "actual_level": null,
       "correct": null,
@@ -84668,9 +86124,9 @@
         "wind_gust_max_kmh": 51.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -84694,9 +86150,9 @@
         "wind_gust_max_kmh": 40.7,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -84720,9 +86176,9 @@
         "wind_gust_max_kmh": 55.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -84746,9 +86202,9 @@
         "wind_gust_max_kmh": 53.3,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -84772,9 +86228,9 @@
         "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -84798,9 +86254,35 @@
         "wind_gust_max_kmh": 44.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Hants-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 5,
+      "reason": "official FWI category: low, FWI 2.9, FFMC 79.2, ISI 1.5, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 26.7,
+        "temperature_min_c": 22.2,
+        "humidity_mean_percent": 89,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 22.2,
+        "wind_gust_max_kmh": 59.8,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -84933,6 +86415,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Hants-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 25.0,
+        "temperature_min_c": 18.1,
+        "humidity_mean_percent": 82,
+        "precipitation_mm": 0.7,
+        "rain_mm": 0.7,
+        "wind_max_kmh": 17.2,
+        "wind_gust_max_kmh": 26.3,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Hants-County",
@@ -85037,6 +86545,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Hants-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 25.2,
+        "temperature_min_c": 14.9,
+        "humidity_mean_percent": 78,
+        "precipitation_mm": 1.5,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 16.1,
+        "wind_gust_max_kmh": 21.5,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Hants-County",
@@ -85115,6 +86649,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Hants-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.6,
+        "temperature_min_c": 13.9,
+        "humidity_mean_percent": 73,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.4,
+        "wind_gust_max_kmh": 21.6,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Hants-County",
@@ -85167,6 +86727,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Hants-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 24.6,
+        "temperature_min_c": 14.5,
+        "humidity_mean_percent": 80,
+        "precipitation_mm": 0.3,
+        "rain_mm": 0.2,
+        "wind_max_kmh": 19.5,
+        "wind_gust_max_kmh": 33.8,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Hants-County",
@@ -85186,6 +86772,58 @@
         "rain_mm": 6.7,
         "wind_max_kmh": 14.2,
         "wind_gust_max_kmh": 31.3,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Hants-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 23.7,
+        "temperature_min_c": 13.9,
+        "humidity_mean_percent": 77,
+        "precipitation_mm": 0.5,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 17.9,
+        "wind_gust_max_kmh": 32.8,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Hants-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.7,
+        "temperature_min_c": 12.8,
+        "humidity_mean_percent": 71,
+        "precipitation_mm": 2.4,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 10.4,
+        "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 0
       },
       "actual_level": null,
@@ -94134,9 +95772,9 @@
         "wind_gust_max_kmh": 59.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -94160,9 +95798,9 @@
         "wind_gust_max_kmh": 63.7,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -94186,9 +95824,9 @@
         "wind_gust_max_kmh": 48.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -94212,9 +95850,9 @@
         "wind_gust_max_kmh": 45.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -94238,9 +95876,9 @@
         "wind_gust_max_kmh": 46.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -94264,9 +95902,35 @@
         "wind_gust_max_kmh": 47.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Inverness-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 1,
+      "reason": "official FWI category: low, FWI 0.0, FFMC 10.9, ISI 0.0, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 25.8,
+        "temperature_min_c": 21.0,
+        "humidity_mean_percent": 91,
+        "precipitation_mm": 1.9,
+        "rain_mm": 1.5,
+        "wind_max_kmh": 19.4,
+        "wind_gust_max_kmh": 43.2,
+        "dry_streak_days": 0
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -94399,6 +96063,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Inverness-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 24.4,
+        "temperature_min_c": 17.7,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.5,
+        "wind_gust_max_kmh": 39.2,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Inverness-County",
@@ -94503,6 +96193,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Inverness-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 21.6,
+        "temperature_min_c": 16.2,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 0.6,
+        "rain_mm": 0.3,
+        "wind_max_kmh": 13.0,
+        "wind_gust_max_kmh": 35.3,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Inverness-County",
@@ -94581,6 +96297,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Inverness-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 24.6,
+        "temperature_min_c": 15.7,
+        "humidity_mean_percent": 81,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 12.2,
+        "wind_gust_max_kmh": 29.2,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Inverness-County",
@@ -94633,6 +96375,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Inverness-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 24.7,
+        "temperature_min_c": 15.6,
+        "humidity_mean_percent": 79,
+        "precipitation_mm": 1.0,
+        "rain_mm": 0.2,
+        "wind_max_kmh": 16.7,
+        "wind_gust_max_kmh": 37.1,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Inverness-County",
@@ -94653,6 +96421,58 @@
         "wind_max_kmh": 13.5,
         "wind_gust_max_kmh": 37.1,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Inverness-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 20.9,
+        "temperature_min_c": 15.2,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 2.9,
+        "rain_mm": 2.2,
+        "wind_max_kmh": 17.2,
+        "wind_gust_max_kmh": 45.7,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Inverness-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 20.9,
+        "temperature_min_c": 14.9,
+        "humidity_mean_percent": 70,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 10.0,
+        "wind_gust_max_kmh": 28.1,
+        "dry_streak_days": 1
       },
       "actual_level": null,
       "correct": null,
@@ -103600,9 +105420,9 @@
         "wind_gust_max_kmh": 51.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -103626,9 +105446,9 @@
         "wind_gust_max_kmh": 42.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -103652,9 +105472,9 @@
         "wind_gust_max_kmh": 54.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -103678,9 +105498,9 @@
         "wind_gust_max_kmh": 48.2,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -103704,9 +105524,9 @@
         "wind_gust_max_kmh": 45.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -103730,9 +105550,35 @@
         "wind_gust_max_kmh": 47.9,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Kings-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 4,
+      "reason": "official FWI category: low, FWI 0.4, FFMC 60.2, ISI 0.6, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 27.5,
+        "temperature_min_c": 21.1,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 18.4,
+        "wind_gust_max_kmh": 53.6,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -103865,6 +105711,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Kings-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 24.2,
+        "temperature_min_c": 16.8,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 10.7,
+        "wind_gust_max_kmh": 22.0,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Kings-County",
@@ -103969,6 +105841,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Kings-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 24.9,
+        "temperature_min_c": 14.7,
+        "humidity_mean_percent": 74,
+        "precipitation_mm": 0.6,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 16.9,
+        "wind_gust_max_kmh": 27.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Kings-County",
@@ -104047,6 +105945,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Kings-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.9,
+        "temperature_min_c": 14.3,
+        "humidity_mean_percent": 70,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 11.0,
+        "wind_gust_max_kmh": 29.9,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Kings-County",
@@ -104099,6 +106023,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Kings-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 24.8,
+        "temperature_min_c": 14.7,
+        "humidity_mean_percent": 80,
+        "precipitation_mm": 1.8,
+        "rain_mm": 1.3,
+        "wind_max_kmh": 19.5,
+        "wind_gust_max_kmh": 37.1,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Kings-County",
@@ -104118,6 +106068,58 @@
         "rain_mm": 2.9,
         "wind_max_kmh": 13.4,
         "wind_gust_max_kmh": 29.5,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Kings-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 23.0,
+        "temperature_min_c": 14.1,
+        "humidity_mean_percent": 75,
+        "precipitation_mm": 0.8,
+        "rain_mm": 0.2,
+        "wind_max_kmh": 18.5,
+        "wind_gust_max_kmh": 29.5,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Kings-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.8,
+        "temperature_min_c": 13.8,
+        "humidity_mean_percent": 70,
+        "precipitation_mm": 6.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.0,
+        "wind_gust_max_kmh": 45.7,
         "dry_streak_days": 0
       },
       "actual_level": null,
@@ -113066,9 +115068,9 @@
         "wind_gust_max_kmh": 54.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -113092,9 +115094,9 @@
         "wind_gust_max_kmh": 39.2,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -113118,9 +115120,9 @@
         "wind_gust_max_kmh": 56.9,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -113144,9 +115146,9 @@
         "wind_gust_max_kmh": 46.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -113170,9 +115172,9 @@
         "wind_gust_max_kmh": 46.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -113196,9 +115198,35 @@
         "wind_gust_max_kmh": 39.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Lunenburg-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "yellow",
+      "confidence": 70,
+      "model": "official_fwi_refined",
+      "score": 4,
+      "reason": "official FWI category: moderate, FWI 4.1, FFMC 79.5, ISI 2.2, restricted burning window is more appropriate",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 25.2,
+        "temperature_min_c": 19.9,
+        "humidity_mean_percent": 96,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 19.1,
+        "wind_gust_max_kmh": 49.3,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -113331,6 +115359,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Lunenburg-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 22.0,
+        "temperature_min_c": 16.9,
+        "humidity_mean_percent": 94,
+        "precipitation_mm": 0.4,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 11.5,
+        "wind_gust_max_kmh": 17.3,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Lunenburg-County",
@@ -113435,6 +115489,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Lunenburg-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 27.4,
+        "temperature_min_c": 15.6,
+        "humidity_mean_percent": 70,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.5,
+        "wind_gust_max_kmh": 27.4,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Lunenburg-County",
@@ -113513,6 +115593,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Lunenburg-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 27.5,
+        "temperature_min_c": 14.0,
+        "humidity_mean_percent": 70,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 17.0,
+        "wind_gust_max_kmh": 30.2,
+        "dry_streak_days": 4
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Lunenburg-County",
@@ -113565,6 +115671,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Lunenburg-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 23.1,
+        "temperature_min_c": 14.5,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 1.1,
+        "rain_mm": 0.9,
+        "wind_max_kmh": 16.6,
+        "wind_gust_max_kmh": 32.4,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Lunenburg-County",
@@ -113585,6 +115717,58 @@
         "wind_max_kmh": 12.1,
         "wind_gust_max_kmh": 33.8,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Lunenburg-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 26.5,
+        "temperature_min_c": 14.0,
+        "humidity_mean_percent": 74,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 16.8,
+        "wind_gust_max_kmh": 24.8,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Lunenburg-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.9,
+        "temperature_min_c": 13.2,
+        "humidity_mean_percent": 65,
+        "precipitation_mm": 0.2,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.6,
+        "wind_gust_max_kmh": 40.7,
+        "dry_streak_days": 2
       },
       "actual_level": null,
       "correct": null,
@@ -122532,9 +124716,9 @@
         "wind_gust_max_kmh": 51.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -122558,9 +124742,9 @@
         "wind_gust_max_kmh": 55.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -122584,9 +124768,9 @@
         "wind_gust_max_kmh": 55.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -122610,9 +124794,9 @@
         "wind_gust_max_kmh": 53.3,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -122636,9 +124820,9 @@
         "wind_gust_max_kmh": 44.3,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -122662,9 +124846,35 @@
         "wind_gust_max_kmh": 48.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Pictou-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 6,
+      "reason": "official FWI category: low, FWI 0.8, FFMC 74.2, ISI 0.9, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 28.0,
+        "temperature_min_c": 22.5,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 0.4,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 24.1,
+        "wind_gust_max_kmh": 50.4,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -122797,6 +125007,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Pictou-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 25.8,
+        "temperature_min_c": 19.9,
+        "humidity_mean_percent": 79,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.5,
+        "wind_gust_max_kmh": 25.2,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Pictou-County",
@@ -122901,6 +125137,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Pictou-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 25.4,
+        "temperature_min_c": 15.7,
+        "humidity_mean_percent": 80,
+        "precipitation_mm": 3.3,
+        "rain_mm": 1.4,
+        "wind_max_kmh": 16.3,
+        "wind_gust_max_kmh": 29.4,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Pictou-County",
@@ -122979,6 +125241,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Pictou-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 27.7,
+        "temperature_min_c": 14.3,
+        "humidity_mean_percent": 70,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 10.4,
+        "wind_gust_max_kmh": 31.7,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Pictou-County",
@@ -123031,6 +125319,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Pictou-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 25.9,
+        "temperature_min_c": 13.6,
+        "humidity_mean_percent": 76,
+        "precipitation_mm": 0.1,
+        "rain_mm": 0.1,
+        "wind_max_kmh": 20.1,
+        "wind_gust_max_kmh": 33.1,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Pictou-County",
@@ -123051,6 +125365,58 @@
         "wind_max_kmh": 19.8,
         "wind_gust_max_kmh": 46.1,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Pictou-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 20.5,
+        "temperature_min_c": 12.5,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 1.6,
+        "rain_mm": 1.0,
+        "wind_max_kmh": 15.0,
+        "wind_gust_max_kmh": 30.2,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Pictou-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 21.0,
+        "temperature_min_c": 11.6,
+        "humidity_mean_percent": 69,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.8,
+        "wind_gust_max_kmh": 42.1,
+        "dry_streak_days": 1
       },
       "actual_level": null,
       "correct": null,
@@ -131998,9 +134364,9 @@
         "wind_gust_max_kmh": 55.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -132024,9 +134390,9 @@
         "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -132050,9 +134416,9 @@
         "wind_gust_max_kmh": 57.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -132076,9 +134442,9 @@
         "wind_gust_max_kmh": 46.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -132102,9 +134468,9 @@
         "wind_gust_max_kmh": 47.9,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -132128,9 +134494,35 @@
         "wind_gust_max_kmh": 38.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Queens-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 4,
+      "reason": "official FWI category: low, FWI 1.2, FFMC 73.3, ISI 1.2, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 24.9,
+        "temperature_min_c": 20.6,
+        "humidity_mean_percent": 94,
+        "precipitation_mm": 0.4,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 19.0,
+        "wind_gust_max_kmh": 45.7,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -132263,6 +134655,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Queens-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 23.5,
+        "temperature_min_c": 18.0,
+        "humidity_mean_percent": 90,
+        "precipitation_mm": 0.4,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 8.3,
+        "wind_gust_max_kmh": 21.6,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Queens-County",
@@ -132367,6 +134785,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Queens-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 27.1,
+        "temperature_min_c": 15.3,
+        "humidity_mean_percent": 69,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.1,
+        "wind_gust_max_kmh": 27.4,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Queens-County",
@@ -132445,6 +134889,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Queens-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 95,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 26.4,
+        "temperature_min_c": 14.0,
+        "humidity_mean_percent": 73,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 16.3,
+        "wind_gust_max_kmh": 30.6,
+        "dry_streak_days": 4
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Queens-County",
@@ -132497,6 +134967,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Queens-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 22.8,
+        "temperature_min_c": 14.9,
+        "humidity_mean_percent": 88,
+        "precipitation_mm": 0.9,
+        "rain_mm": 0.9,
+        "wind_max_kmh": 16.9,
+        "wind_gust_max_kmh": 35.3,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Queens-County",
@@ -132517,6 +135013,58 @@
         "wind_max_kmh": 12.0,
         "wind_gust_max_kmh": 34.6,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Queens-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 26.3,
+        "temperature_min_c": 14.1,
+        "humidity_mean_percent": 75,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 16.8,
+        "wind_gust_max_kmh": 25.6,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Queens-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 24.4,
+        "temperature_min_c": 13.4,
+        "humidity_mean_percent": 64,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 19.9,
+        "wind_gust_max_kmh": 40.0,
+        "dry_streak_days": 2
       },
       "actual_level": null,
       "correct": null,
@@ -141464,9 +144012,9 @@
         "wind_gust_max_kmh": 47.9,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -141490,9 +144038,9 @@
         "wind_gust_max_kmh": 46.1,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -141516,9 +144064,9 @@
         "wind_gust_max_kmh": 46.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -141542,9 +144090,9 @@
         "wind_gust_max_kmh": 41.0,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -141568,9 +144116,9 @@
         "wind_gust_max_kmh": 42.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -141594,9 +144142,35 @@
         "wind_gust_max_kmh": 42.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Richmond-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": -1,
+      "reason": "official FWI category: low, FWI 0.0, FFMC 18.9, ISI 0.0, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 23.3,
+        "temperature_min_c": 20.6,
+        "humidity_mean_percent": 96,
+        "precipitation_mm": 3.2,
+        "rain_mm": 2.0,
+        "wind_max_kmh": 18.8,
+        "wind_gust_max_kmh": 41.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -141729,6 +144303,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Richmond-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 24.8,
+        "temperature_min_c": 17.6,
+        "humidity_mean_percent": 92,
+        "precipitation_mm": 3.3,
+        "rain_mm": 2.1,
+        "wind_max_kmh": 14.5,
+        "wind_gust_max_kmh": 32.0,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Richmond-County",
@@ -141833,6 +144433,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Richmond-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 23.6,
+        "temperature_min_c": 16.0,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 2.7,
+        "rain_mm": 1.4,
+        "wind_max_kmh": 12.4,
+        "wind_gust_max_kmh": 32.8,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Richmond-County",
@@ -141911,6 +144537,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Richmond-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 24.0,
+        "temperature_min_c": 15.0,
+        "humidity_mean_percent": 86,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.4,
+        "wind_gust_max_kmh": 31.7,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Richmond-County",
@@ -141963,6 +144615,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Richmond-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 23.7,
+        "temperature_min_c": 17.1,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 1.8,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 18.2,
+        "wind_gust_max_kmh": 44.3,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Richmond-County",
@@ -141983,6 +144661,58 @@
         "wind_max_kmh": 8.9,
         "wind_gust_max_kmh": 30.6,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Richmond-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "green",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 23.8,
+        "temperature_min_c": 14.1,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 13.2,
+        "rain_mm": 3.2,
+        "wind_max_kmh": 18.9,
+        "wind_gust_max_kmh": 44.6,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Richmond-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.3,
+        "temperature_min_c": 13.5,
+        "humidity_mean_percent": 68,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.0,
+        "wind_gust_max_kmh": 39.6,
+        "dry_streak_days": 1
       },
       "actual_level": null,
       "correct": null,
@@ -150930,9 +153660,9 @@
         "wind_gust_max_kmh": 51.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -150956,9 +153686,9 @@
         "wind_gust_max_kmh": 36.4,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -150982,9 +153712,9 @@
         "wind_gust_max_kmh": 54.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -151008,9 +153738,9 @@
         "wind_gust_max_kmh": 43.2,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -151034,9 +153764,9 @@
         "wind_gust_max_kmh": 45.7,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -151060,9 +153790,35 @@
         "wind_gust_max_kmh": 38.2,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Shelburne-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 2,
+      "reason": "official FWI category: low, FWI 1.8, FFMC 75.3, ISI 1.5, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 25.0,
+        "temperature_min_c": 19.9,
+        "humidity_mean_percent": 94,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.0,
+        "wind_gust_max_kmh": 31.0,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -151195,6 +153951,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Shelburne-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "green",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 23.4,
+        "temperature_min_c": 17.7,
+        "humidity_mean_percent": 90,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 10.2,
+        "wind_gust_max_kmh": 19.1,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Shelburne-County",
@@ -151299,6 +154081,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Shelburne-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 26.1,
+        "temperature_min_c": 13.9,
+        "humidity_mean_percent": 73,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 17.3,
+        "wind_gust_max_kmh": 23.4,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Shelburne-County",
@@ -151377,6 +154185,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Shelburne-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 24.7,
+        "temperature_min_c": 13.4,
+        "humidity_mean_percent": 75,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.1,
+        "wind_gust_max_kmh": 23.4,
+        "dry_streak_days": 4
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Shelburne-County",
@@ -151429,6 +154263,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Shelburne-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 21.3,
+        "temperature_min_c": 15.0,
+        "humidity_mean_percent": 91,
+        "precipitation_mm": 0.4,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 17.0,
+        "wind_gust_max_kmh": 36.0,
+        "dry_streak_days": 5
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Shelburne-County",
@@ -151449,6 +154309,58 @@
         "wind_max_kmh": 12.7,
         "wind_gust_max_kmh": 32.4,
         "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Shelburne-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 27.1,
+        "temperature_min_c": 13.9,
+        "humidity_mean_percent": 74,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 16.5,
+        "wind_gust_max_kmh": 23.4,
+        "dry_streak_days": 6
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Shelburne-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 23.6,
+        "temperature_min_c": 13.8,
+        "humidity_mean_percent": 67,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.6,
+        "wind_gust_max_kmh": 39.6,
+        "dry_streak_days": 7
       },
       "actual_level": null,
       "correct": null,
@@ -160396,9 +163308,9 @@
         "wind_gust_max_kmh": 38.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -160422,9 +163334,9 @@
         "wind_gust_max_kmh": 38.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -160448,9 +163360,9 @@
         "wind_gust_max_kmh": 38.9,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -160474,9 +163386,9 @@
         "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -160500,9 +163412,9 @@
         "wind_gust_max_kmh": 37.8,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -160526,9 +163438,35 @@
         "wind_gust_max_kmh": 39.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Victoria-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": -1,
+      "reason": "official FWI category: low, FWI 0.0, FFMC 14.5, ISI 0.0, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 23.3,
+        "temperature_min_c": 20.5,
+        "humidity_mean_percent": 96,
+        "precipitation_mm": 13.8,
+        "rain_mm": 3.6,
+        "wind_max_kmh": 17.2,
+        "wind_gust_max_kmh": 38.9,
+        "dry_streak_days": 0
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -160661,6 +163599,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Victoria-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 25.7,
+        "temperature_min_c": 18.7,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 0.4,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 14.9,
+        "wind_gust_max_kmh": 34.6,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Victoria-County",
@@ -160765,6 +163729,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Victoria-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 23.9,
+        "temperature_min_c": 16.1,
+        "humidity_mean_percent": 83,
+        "precipitation_mm": 1.7,
+        "rain_mm": 0.5,
+        "wind_max_kmh": 12.5,
+        "wind_gust_max_kmh": 32.4,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Victoria-County",
@@ -160843,6 +163833,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Victoria-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 24.7,
+        "temperature_min_c": 15.1,
+        "humidity_mean_percent": 83,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 12.9,
+        "wind_gust_max_kmh": 31.7,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Victoria-County",
@@ -160895,6 +163911,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Victoria-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 23.1,
+        "temperature_min_c": 16.7,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 17.3,
+        "wind_gust_max_kmh": 40.7,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Victoria-County",
@@ -160915,6 +163957,58 @@
         "wind_max_kmh": 11.5,
         "wind_gust_max_kmh": 29.5,
         "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Victoria-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 21.5,
+        "temperature_min_c": 13.6,
+        "humidity_mean_percent": 87,
+        "precipitation_mm": 4.5,
+        "rain_mm": 3.9,
+        "wind_max_kmh": 18.6,
+        "wind_gust_max_kmh": 46.8,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Victoria-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 21.9,
+        "temperature_min_c": 13.4,
+        "humidity_mean_percent": 71,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 10.5,
+        "wind_gust_max_kmh": 28.8,
+        "dry_streak_days": 1
       },
       "actual_level": null,
       "correct": null,
@@ -169862,9 +172956,9 @@
         "wind_gust_max_kmh": 53.3,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -169888,9 +172982,9 @@
         "wind_gust_max_kmh": 38.9,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": false,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-20",
@@ -169914,9 +173008,9 @@
         "wind_gust_max_kmh": 52.6,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-21",
@@ -169940,9 +173034,9 @@
         "wind_gust_max_kmh": 41.4,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-22",
@@ -169966,9 +173060,9 @@
         "wind_gust_max_kmh": 56.5,
         "dry_streak_days": 0
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-23",
@@ -169992,9 +173086,35 @@
         "wind_gust_max_kmh": 34.9,
         "dry_streak_days": 1
       },
-      "actual_level": null,
-      "correct": null,
-      "evaluated_at": null
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Yarmouth-County",
+      "target_date": "2026-08-24",
+      "horizon_days": 0,
+      "predicted_level": "green",
+      "confidence": 78,
+      "model": "official_fwi_refined",
+      "score": 1,
+      "reason": "official FWI category: low, FWI 0.4, FFMC 56.6, ISI 0.5, low official fire-weather conditions",
+      "weather": {
+        "date": "2026-08-24",
+        "temperature_max_c": 21.9,
+        "temperature_min_c": 17.6,
+        "humidity_mean_percent": 98,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 13.4,
+        "wind_gust_max_kmh": 29.9,
+        "dry_streak_days": 1
+      },
+      "actual_level": "green",
+      "correct": true,
+      "evaluated_at": "2026-08-24T14:01:16-03:00"
     },
     {
       "issued_date": "2026-08-19",
@@ -170127,6 +173247,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Yarmouth-County",
+      "target_date": "2026-08-25",
+      "horizon_days": 1,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-25",
+        "temperature_max_c": 23.4,
+        "temperature_min_c": 16.1,
+        "humidity_mean_percent": 93,
+        "precipitation_mm": 0.4,
+        "rain_mm": 0.4,
+        "wind_max_kmh": 13.2,
+        "wind_gust_max_kmh": 22.0,
+        "dry_streak_days": 2
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-20",
       "issued_at": "2026-08-20T14:01:15-03:00",
       "county_id": "Yarmouth-County",
@@ -170231,6 +173377,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Yarmouth-County",
+      "target_date": "2026-08-26",
+      "horizon_days": 2,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-26",
+        "temperature_max_c": 19.3,
+        "temperature_min_c": 13.8,
+        "humidity_mean_percent": 85,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 14.9,
+        "wind_gust_max_kmh": 22.3,
+        "dry_streak_days": 3
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-21",
       "issued_at": "2026-08-21T14:01:15-03:00",
       "county_id": "Yarmouth-County",
@@ -170309,6 +173481,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Yarmouth-County",
+      "target_date": "2026-08-27",
+      "horizon_days": 3,
+      "predicted_level": "yellow",
+      "confidence": 89,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-27",
+        "temperature_max_c": 21.4,
+        "temperature_min_c": 14.0,
+        "humidity_mean_percent": 82,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 15.3,
+        "wind_gust_max_kmh": 28.1,
+        "dry_streak_days": 4
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-22",
       "issued_at": "2026-08-22T14:01:13-03:00",
       "county_id": "Yarmouth-County",
@@ -170361,6 +173559,32 @@
       "evaluated_at": null
     },
     {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Yarmouth-County",
+      "target_date": "2026-08-28",
+      "horizon_days": 4,
+      "predicted_level": "green",
+      "confidence": 76,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-28",
+        "temperature_max_c": 20.6,
+        "temperature_min_c": 14.7,
+        "humidity_mean_percent": 93,
+        "precipitation_mm": 3.9,
+        "rain_mm": 3.6,
+        "wind_max_kmh": 21.3,
+        "wind_gust_max_kmh": 40.3,
+        "dry_streak_days": 0
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
       "issued_date": "2026-08-23",
       "issued_at": "2026-08-23T14:01:13-03:00",
       "county_id": "Yarmouth-County",
@@ -170381,6 +173605,58 @@
         "wind_max_kmh": 11.2,
         "wind_gust_max_kmh": 21.2,
         "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Yarmouth-County",
+      "target_date": "2026-08-29",
+      "horizon_days": 5,
+      "predicted_level": "yellow",
+      "confidence": 82,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-29",
+        "temperature_max_c": 19.7,
+        "temperature_min_c": 14.1,
+        "humidity_mean_percent": 81,
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "wind_max_kmh": 18.4,
+        "wind_gust_max_kmh": 26.3,
+        "dry_streak_days": 1
+      },
+      "actual_level": null,
+      "correct": null,
+      "evaluated_at": null
+    },
+    {
+      "issued_date": "2026-08-24",
+      "issued_at": "2026-08-24T14:01:16-03:00",
+      "county_id": "Yarmouth-County",
+      "target_date": "2026-08-30",
+      "horizon_days": 6,
+      "predicted_level": "yellow",
+      "confidence": 69,
+      "model": "knn",
+      "score": null,
+      "reason": "machine-learning prediction based on 343 past evaluated examples",
+      "weather": {
+        "date": "2026-08-30",
+        "temperature_max_c": 20.0,
+        "temperature_min_c": 14.8,
+        "humidity_mean_percent": 78,
+        "precipitation_mm": 0.9,
+        "rain_mm": 0.3,
+        "wind_max_kmh": 16.6,
+        "wind_gust_max_kmh": 42.8,
+        "dry_streak_days": 0
       },
       "actual_level": null,
       "correct": null,
