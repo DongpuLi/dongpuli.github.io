@@ -10031,9 +10031,9 @@
       "wind_gust_max_kmh": 40.0,
       "dry_streak_days": 2
     },
-    "actual_level": null,
-    "correct": null,
-    "evaluated_at": null
+    "actual_level": "yellow",
+    "correct": true,
+    "evaluated_at": "2026-08-30T14:01:14-03:00"
   },
   {
     "issued_date": "2026-08-25",
@@ -10057,9 +10057,9 @@
       "wind_gust_max_kmh": 45.7,
       "dry_streak_days": 1
     },
-    "actual_level": null,
-    "correct": null,
-    "evaluated_at": null
+    "actual_level": "yellow",
+    "correct": false,
+    "evaluated_at": "2026-08-30T14:01:14-03:00"
   },
   {
     "issued_date": "2026-08-26",
@@ -10083,9 +10083,9 @@
       "wind_gust_max_kmh": 43.2,
       "dry_streak_days": 1
     },
-    "actual_level": null,
-    "correct": null,
-    "evaluated_at": null
+    "actual_level": "yellow",
+    "correct": false,
+    "evaluated_at": "2026-08-30T14:01:14-03:00"
   },
   {
     "issued_date": "2026-08-27",
@@ -10109,9 +10109,9 @@
       "wind_gust_max_kmh": 46.4,
       "dry_streak_days": 1
     },
-    "actual_level": null,
-    "correct": null,
-    "evaluated_at": null
+    "actual_level": "yellow",
+    "correct": false,
+    "evaluated_at": "2026-08-30T14:01:14-03:00"
   },
   {
     "issued_date": "2026-08-28",
@@ -10135,9 +10135,9 @@
       "wind_gust_max_kmh": 41.8,
       "dry_streak_days": 3
     },
-    "actual_level": null,
-    "correct": null,
-    "evaluated_at": null
+    "actual_level": "yellow",
+    "correct": false,
+    "evaluated_at": "2026-08-30T14:01:14-03:00"
   },
   {
     "issued_date": "2026-08-29",
@@ -10161,9 +10161,35 @@
       "wind_gust_max_kmh": 39.6,
       "dry_streak_days": 2
     },
-    "actual_level": null,
-    "correct": null,
-    "evaluated_at": null
+    "actual_level": "yellow",
+    "correct": true,
+    "evaluated_at": "2026-08-30T14:01:14-03:00"
+  },
+  {
+    "issued_date": "2026-08-30",
+    "issued_at": "2026-08-30T14:01:14-03:00",
+    "county_id": "Halifax-County",
+    "target_date": "2026-08-30",
+    "horizon_days": 0,
+    "predicted_level": "yellow",
+    "confidence": 76,
+    "model": "official_fwi_refined",
+    "score": 3,
+    "reason": "official FWI category: high, FWI 11.2, FFMC 86.1, ISI 6.2, restricted burning window is more appropriate",
+    "weather": {
+      "date": "2026-08-30",
+      "temperature_max_c": 24.7,
+      "temperature_min_c": 13.8,
+      "humidity_mean_percent": 68,
+      "precipitation_mm": 0.4,
+      "rain_mm": 0.4,
+      "wind_max_kmh": 21.0,
+      "wind_gust_max_kmh": 41.4,
+      "dry_streak_days": 1
+    },
+    "actual_level": "yellow",
+    "correct": true,
+    "evaluated_at": "2026-08-30T14:01:14-03:00"
   },
   {
     "issued_date": "2026-08-25",
@@ -10296,6 +10322,32 @@
     "evaluated_at": null
   },
   {
+    "issued_date": "2026-08-30",
+    "issued_at": "2026-08-30T14:01:14-03:00",
+    "county_id": "Halifax-County",
+    "target_date": "2026-08-31",
+    "horizon_days": 1,
+    "predicted_level": "green",
+    "confidence": 69,
+    "model": "knn",
+    "score": null,
+    "reason": "machine-learning prediction based on 385 past evaluated examples",
+    "weather": {
+      "date": "2026-08-31",
+      "temperature_max_c": 19.7,
+      "temperature_min_c": 13.8,
+      "humidity_mean_percent": 74,
+      "precipitation_mm": 3.3,
+      "rain_mm": 3.3,
+      "wind_max_kmh": 17.4,
+      "wind_gust_max_kmh": 35.3,
+      "dry_streak_days": 0
+    },
+    "actual_level": null,
+    "correct": null,
+    "evaluated_at": null
+  },
+  {
     "issued_date": "2026-08-26",
     "issued_at": "2026-08-26T14:09:55-03:00",
     "county_id": "Halifax-County",
@@ -10400,6 +10452,32 @@
     "evaluated_at": null
   },
   {
+    "issued_date": "2026-08-30",
+    "issued_at": "2026-08-30T14:01:14-03:00",
+    "county_id": "Halifax-County",
+    "target_date": "2026-09-01",
+    "horizon_days": 2,
+    "predicted_level": "yellow",
+    "confidence": 76,
+    "model": "knn",
+    "score": null,
+    "reason": "machine-learning prediction based on 385 past evaluated examples",
+    "weather": {
+      "date": "2026-09-01",
+      "temperature_max_c": 23.1,
+      "temperature_min_c": 12.0,
+      "humidity_mean_percent": 67,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 14.5,
+      "wind_gust_max_kmh": 20.2,
+      "dry_streak_days": 1
+    },
+    "actual_level": null,
+    "correct": null,
+    "evaluated_at": null
+  },
+  {
     "issued_date": "2026-08-27",
     "issued_at": "2026-08-27T14:01:19-03:00",
     "county_id": "Halifax-County",
@@ -10478,6 +10556,32 @@
     "evaluated_at": null
   },
   {
+    "issued_date": "2026-08-30",
+    "issued_at": "2026-08-30T14:01:14-03:00",
+    "county_id": "Halifax-County",
+    "target_date": "2026-09-02",
+    "horizon_days": 3,
+    "predicted_level": "yellow",
+    "confidence": 89,
+    "model": "knn",
+    "score": null,
+    "reason": "machine-learning prediction based on 385 past evaluated examples",
+    "weather": {
+      "date": "2026-09-02",
+      "temperature_max_c": 21.7,
+      "temperature_min_c": 9.8,
+      "humidity_mean_percent": 78,
+      "precipitation_mm": 0.0,
+      "rain_mm": 0.0,
+      "wind_max_kmh": 15.6,
+      "wind_gust_max_kmh": 18.4,
+      "dry_streak_days": 2
+    },
+    "actual_level": null,
+    "correct": null,
+    "evaluated_at": null
+  },
+  {
     "issued_date": "2026-08-28",
     "issued_at": "2026-08-28T14:01:14-03:00",
     "county_id": "Halifax-County",
@@ -10530,6 +10634,32 @@
     "evaluated_at": null
   },
   {
+    "issued_date": "2026-08-30",
+    "issued_at": "2026-08-30T14:01:14-03:00",
+    "county_id": "Halifax-County",
+    "target_date": "2026-09-03",
+    "horizon_days": 4,
+    "predicted_level": "yellow",
+    "confidence": 82,
+    "model": "knn",
+    "score": null,
+    "reason": "machine-learning prediction based on 385 past evaluated examples",
+    "weather": {
+      "date": "2026-09-03",
+      "temperature_max_c": 20.8,
+      "temperature_min_c": 12.4,
+      "humidity_mean_percent": 83,
+      "precipitation_mm": 4.3,
+      "rain_mm": 3.8,
+      "wind_max_kmh": 20.7,
+      "wind_gust_max_kmh": 41.0,
+      "dry_streak_days": 0
+    },
+    "actual_level": null,
+    "correct": null,
+    "evaluated_at": null
+  },
+  {
     "issued_date": "2026-08-29",
     "issued_at": "2026-08-29T14:01:16-03:00",
     "county_id": "Halifax-County",
@@ -10550,6 +10680,58 @@
       "wind_max_kmh": 15.3,
       "wind_gust_max_kmh": 19.4,
       "dry_streak_days": 2
+    },
+    "actual_level": null,
+    "correct": null,
+    "evaluated_at": null
+  },
+  {
+    "issued_date": "2026-08-30",
+    "issued_at": "2026-08-30T14:01:14-03:00",
+    "county_id": "Halifax-County",
+    "target_date": "2026-09-04",
+    "horizon_days": 5,
+    "predicted_level": "green",
+    "confidence": 69,
+    "model": "knn",
+    "score": null,
+    "reason": "machine-learning prediction based on 385 past evaluated examples",
+    "weather": {
+      "date": "2026-09-04",
+      "temperature_max_c": 23.8,
+      "temperature_min_c": 14.8,
+      "humidity_mean_percent": 89,
+      "precipitation_mm": 16.4,
+      "rain_mm": 15.2,
+      "wind_max_kmh": 24.1,
+      "wind_gust_max_kmh": 48.2,
+      "dry_streak_days": 0
+    },
+    "actual_level": null,
+    "correct": null,
+    "evaluated_at": null
+  },
+  {
+    "issued_date": "2026-08-30",
+    "issued_at": "2026-08-30T14:01:14-03:00",
+    "county_id": "Halifax-County",
+    "target_date": "2026-09-05",
+    "horizon_days": 6,
+    "predicted_level": "green",
+    "confidence": 82,
+    "model": "knn",
+    "score": null,
+    "reason": "machine-learning prediction based on 385 past evaluated examples",
+    "weather": {
+      "date": "2026-09-05",
+      "temperature_max_c": 16.7,
+      "temperature_min_c": 11.4,
+      "humidity_mean_percent": 89,
+      "precipitation_mm": 0.6,
+      "rain_mm": 0.3,
+      "wind_max_kmh": 22.5,
+      "wind_gust_max_kmh": 45.7,
+      "dry_streak_days": 0
     },
     "actual_level": null,
     "correct": null,
