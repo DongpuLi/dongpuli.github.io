@@ -1,51 +1,51 @@
 {
   "version": "4.1",
   "primary_metric": "one_day_ahead",
-  "total_evaluated": 70,
+  "total_evaluated": 71,
   "correct": 42,
-  "accuracy": 0.6,
+  "accuracy": 0.5915,
   "all_evaluated": {
-    "total": 476,
-    "correct": 276,
-    "accuracy": 0.5798
+    "total": 483,
+    "correct": 277,
+    "accuracy": 0.5735
   },
   "by_horizon": {
     "1": {
+      "total": 71,
+      "correct": 42,
+      "accuracy": 0.5915
+    },
+    "2": {
       "total": 70,
       "correct": 42,
       "accuracy": 0.6
     },
-    "2": {
+    "3": {
       "total": 69,
       "correct": 42,
       "accuracy": 0.6087
     },
-    "3": {
-      "total": 68,
-      "correct": 41,
-      "accuracy": 0.6029
-    },
     "4": {
+      "total": 68,
+      "correct": 38,
+      "accuracy": 0.5588
+    },
+    "5": {
       "total": 67,
       "correct": 38,
       "accuracy": 0.5672
     },
-    "5": {
-      "total": 66,
-      "correct": 38,
-      "accuracy": 0.5758
-    },
     "6": {
-      "total": 65,
+      "total": 66,
       "correct": 32,
-      "accuracy": 0.4923
+      "accuracy": 0.4848
     }
   },
   "by_actual_level": {
     "green": {
-      "total": 161,
-      "correct": 53,
-      "accuracy": 0.3292
+      "total": 168,
+      "correct": 54,
+      "accuracy": 0.3214
     },
     "yellow": {
       "total": 273,
@@ -65,14 +65,14 @@
   },
   "by_predicted_level": {
     "green": {
-      "total": 96,
-      "correct": 53,
-      "accuracy": 0.5521
+      "total": 97,
+      "correct": 54,
+      "accuracy": 0.5567
     },
     "yellow": {
-      "total": 341,
+      "total": 347,
       "correct": 216,
-      "accuracy": 0.6334
+      "accuracy": 0.6225
     },
     "red": {
       "total": 39,
@@ -87,8 +87,8 @@
   },
   "confusion_matrix": {
     "green": {
-      "green": 53,
-      "yellow": 91,
+      "green": 54,
+      "yellow": 97,
       "red": 17,
       "unknown": 0
     },
@@ -111,5 +111,5 @@
       "unknown": 0
     }
   },
-  "updated_at": "2026-09-11T14:01:15-03:00"
+  "updated_at": "2026-09-12T14:01:13-03:00"
 }
