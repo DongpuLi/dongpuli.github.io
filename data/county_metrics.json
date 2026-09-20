@@ -2,51 +2,51 @@
   "Annapolis-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 48,
-    "accuracy": 0.6154,
+    "total_evaluated": 79,
+    "correct": 49,
+    "accuracy": 0.6203,
     "all_evaluated": {
-      "total": 532,
-      "correct": 292,
-      "accuracy": 0.5489
+      "total": 539,
+      "correct": 299,
+      "accuracy": 0.5547
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 48,
-        "accuracy": 0.6154
+        "total": 79,
+        "correct": 49,
+        "accuracy": 0.6203
       },
       "2": {
-        "total": 77,
-        "correct": 43,
-        "accuracy": 0.5584
+        "total": 78,
+        "correct": 44,
+        "accuracy": 0.5641
       },
       "3": {
-        "total": 76,
-        "correct": 46,
-        "accuracy": 0.6053
+        "total": 77,
+        "correct": 47,
+        "accuracy": 0.6104
       },
       "4": {
+        "total": 76,
+        "correct": 42,
+        "accuracy": 0.5526
+      },
+      "5": {
         "total": 75,
         "correct": 41,
         "accuracy": 0.5467
       },
-      "5": {
-        "total": 74,
-        "correct": 40,
-        "accuracy": 0.5405
-      },
       "6": {
-        "total": 73,
-        "correct": 36,
-        "accuracy": 0.4932
+        "total": 74,
+        "correct": 37,
+        "accuracy": 0.5
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 210,
-        "correct": 105,
-        "accuracy": 0.5
+        "total": 217,
+        "correct": 112,
+        "accuracy": 0.5161
       },
       "yellow": {
         "total": 273,
@@ -66,9 +66,9 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 175,
-        "correct": 105,
-        "accuracy": 0.6
+        "total": 182,
+        "correct": 112,
+        "accuracy": 0.6154
       },
       "yellow": {
         "total": 288,
@@ -88,7 +88,7 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 105,
+        "green": 112,
         "yellow": 80,
         "red": 25,
         "unknown": 0
@@ -112,56 +112,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Antigonish-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 43,
-    "accuracy": 0.5513,
+    "total_evaluated": 79,
+    "correct": 44,
+    "accuracy": 0.557,
     "all_evaluated": {
-      "total": 532,
-      "correct": 253,
-      "accuracy": 0.4756
+      "total": 539,
+      "correct": 260,
+      "accuracy": 0.4824
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 43,
-        "accuracy": 0.5513
+        "total": 79,
+        "correct": 44,
+        "accuracy": 0.557
       },
       "2": {
-        "total": 77,
-        "correct": 40,
-        "accuracy": 0.5195
+        "total": 78,
+        "correct": 41,
+        "accuracy": 0.5256
       },
       "3": {
-        "total": 76,
-        "correct": 37,
-        "accuracy": 0.4868
+        "total": 77,
+        "correct": 38,
+        "accuracy": 0.4935
       },
       "4": {
-        "total": 75,
-        "correct": 40,
-        "accuracy": 0.5333
+        "total": 76,
+        "correct": 41,
+        "accuracy": 0.5395
       },
       "5": {
-        "total": 74,
-        "correct": 30,
-        "accuracy": 0.4054
+        "total": 75,
+        "correct": 31,
+        "accuracy": 0.4133
       },
       "6": {
-        "total": 73,
-        "correct": 30,
-        "accuracy": 0.411
+        "total": 74,
+        "correct": 31,
+        "accuracy": 0.4189
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 294,
-        "correct": 132,
-        "accuracy": 0.449
+        "total": 301,
+        "correct": 139,
+        "accuracy": 0.4618
       },
       "yellow": {
         "total": 182,
@@ -181,9 +181,9 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 192,
-        "correct": 132,
-        "accuracy": 0.6875
+        "total": 199,
+        "correct": 139,
+        "accuracy": 0.6985
       },
       "yellow": {
         "total": 322,
@@ -203,7 +203,7 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 132,
+        "green": 139,
         "yellow": 155,
         "red": 7,
         "unknown": 0
@@ -227,56 +227,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Cape-Breton-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 47,
-    "accuracy": 0.6026,
+    "total_evaluated": 79,
+    "correct": 48,
+    "accuracy": 0.6076,
     "all_evaluated": {
-      "total": 532,
-      "correct": 297,
-      "accuracy": 0.5583
+      "total": 539,
+      "correct": 300,
+      "accuracy": 0.5566
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 47,
-        "accuracy": 0.6026
+        "total": 79,
+        "correct": 48,
+        "accuracy": 0.6076
       },
       "2": {
-        "total": 77,
+        "total": 78,
         "correct": 49,
-        "accuracy": 0.6364
+        "accuracy": 0.6282
       },
       "3": {
-        "total": 76,
-        "correct": 45,
-        "accuracy": 0.5921
+        "total": 77,
+        "correct": 46,
+        "accuracy": 0.5974
       },
       "4": {
-        "total": 75,
+        "total": 76,
         "correct": 47,
-        "accuracy": 0.6267
+        "accuracy": 0.6184
       },
       "5": {
-        "total": 74,
+        "total": 75,
         "correct": 37,
-        "accuracy": 0.5
+        "accuracy": 0.4933
       },
       "6": {
-        "total": 73,
+        "total": 74,
         "correct": 32,
-        "accuracy": 0.4384
+        "accuracy": 0.4324
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 281,
-        "correct": 113,
-        "accuracy": 0.4021
+        "total": 288,
+        "correct": 116,
+        "accuracy": 0.4028
       },
       "yellow": {
         "total": 251,
@@ -296,14 +296,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 180,
-        "correct": 113,
-        "accuracy": 0.6278
+        "total": 183,
+        "correct": 116,
+        "accuracy": 0.6339
       },
       "yellow": {
-        "total": 352,
+        "total": 356,
         "correct": 184,
-        "accuracy": 0.5227
+        "accuracy": 0.5169
       },
       "red": {
         "total": 0,
@@ -318,8 +318,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 113,
-        "yellow": 168,
+        "green": 116,
+        "yellow": 172,
         "red": 0,
         "unknown": 0
       },
@@ -342,56 +342,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Colchester-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 47,
-    "accuracy": 0.6026,
+    "total_evaluated": 79,
+    "correct": 48,
+    "accuracy": 0.6076,
     "all_evaluated": {
-      "total": 532,
-      "correct": 311,
-      "accuracy": 0.5846
+      "total": 539,
+      "correct": 318,
+      "accuracy": 0.59
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 47,
-        "accuracy": 0.6026
+        "total": 79,
+        "correct": 48,
+        "accuracy": 0.6076
       },
       "2": {
-        "total": 77,
-        "correct": 51,
-        "accuracy": 0.6623
+        "total": 78,
+        "correct": 52,
+        "accuracy": 0.6667
       },
       "3": {
-        "total": 76,
-        "correct": 48,
-        "accuracy": 0.6316
+        "total": 77,
+        "correct": 49,
+        "accuracy": 0.6364
       },
       "4": {
-        "total": 75,
-        "correct": 43,
-        "accuracy": 0.5733
+        "total": 76,
+        "correct": 44,
+        "accuracy": 0.5789
       },
       "5": {
-        "total": 74,
-        "correct": 39,
-        "accuracy": 0.527
+        "total": 75,
+        "correct": 40,
+        "accuracy": 0.5333
       },
       "6": {
-        "total": 73,
-        "correct": 40,
-        "accuracy": 0.5479
+        "total": 74,
+        "correct": 41,
+        "accuracy": 0.5541
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 182,
-        "correct": 49,
-        "accuracy": 0.2692
+        "total": 189,
+        "correct": 56,
+        "accuracy": 0.2963
       },
       "yellow": {
         "total": 329,
@@ -411,9 +411,9 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 110,
-        "correct": 49,
-        "accuracy": 0.4455
+        "total": 117,
+        "correct": 56,
+        "accuracy": 0.4786
       },
       "yellow": {
         "total": 402,
@@ -433,7 +433,7 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 49,
+        "green": 56,
         "yellow": 122,
         "red": 11,
         "unknown": 0
@@ -457,56 +457,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Cumberland-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 48,
-    "accuracy": 0.6154,
+    "total_evaluated": 79,
+    "correct": 49,
+    "accuracy": 0.6203,
     "all_evaluated": {
-      "total": 532,
-      "correct": 298,
-      "accuracy": 0.5602
+      "total": 539,
+      "correct": 305,
+      "accuracy": 0.5659
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 48,
-        "accuracy": 0.6154
+        "total": 79,
+        "correct": 49,
+        "accuracy": 0.6203
       },
       "2": {
-        "total": 77,
-        "correct": 51,
-        "accuracy": 0.6623
+        "total": 78,
+        "correct": 52,
+        "accuracy": 0.6667
       },
       "3": {
-        "total": 76,
-        "correct": 43,
-        "accuracy": 0.5658
+        "total": 77,
+        "correct": 44,
+        "accuracy": 0.5714
       },
       "4": {
-        "total": 75,
-        "correct": 33,
-        "accuracy": 0.44
+        "total": 76,
+        "correct": 34,
+        "accuracy": 0.4474
       },
       "5": {
-        "total": 74,
-        "correct": 42,
-        "accuracy": 0.5676
+        "total": 75,
+        "correct": 43,
+        "accuracy": 0.5733
       },
       "6": {
-        "total": 73,
-        "correct": 34,
-        "accuracy": 0.4658
+        "total": 74,
+        "correct": 35,
+        "accuracy": 0.473
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 210,
-        "correct": 86,
-        "accuracy": 0.4095
+        "total": 217,
+        "correct": 93,
+        "accuracy": 0.4286
       },
       "yellow": {
         "total": 301,
@@ -526,9 +526,9 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 159,
-        "correct": 86,
-        "accuracy": 0.5409
+        "total": 166,
+        "correct": 93,
+        "accuracy": 0.5602
       },
       "yellow": {
         "total": 346,
@@ -548,7 +548,7 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 86,
+        "green": 93,
         "yellow": 114,
         "red": 10,
         "unknown": 0
@@ -572,56 +572,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Digby-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 47,
-    "accuracy": 0.6026,
+    "total_evaluated": 79,
+    "correct": 48,
+    "accuracy": 0.6076,
     "all_evaluated": {
-      "total": 532,
-      "correct": 309,
-      "accuracy": 0.5808
+      "total": 539,
+      "correct": 315,
+      "accuracy": 0.5844
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 47,
-        "accuracy": 0.6026
+        "total": 79,
+        "correct": 48,
+        "accuracy": 0.6076
       },
       "2": {
-        "total": 77,
-        "correct": 47,
-        "accuracy": 0.6104
+        "total": 78,
+        "correct": 48,
+        "accuracy": 0.6154
       },
       "3": {
-        "total": 76,
+        "total": 77,
         "correct": 48,
-        "accuracy": 0.6316
+        "accuracy": 0.6234
       },
       "4": {
-        "total": 75,
-        "correct": 43,
-        "accuracy": 0.5733
+        "total": 76,
+        "correct": 44,
+        "accuracy": 0.5789
       },
       "5": {
-        "total": 74,
-        "correct": 38,
-        "accuracy": 0.5135
+        "total": 75,
+        "correct": 39,
+        "accuracy": 0.52
       },
       "6": {
-        "total": 73,
-        "correct": 40,
-        "accuracy": 0.5479
+        "total": 74,
+        "correct": 41,
+        "accuracy": 0.5541
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 217,
-        "correct": 103,
-        "accuracy": 0.4747
+        "total": 224,
+        "correct": 109,
+        "accuracy": 0.4866
       },
       "yellow": {
         "total": 294,
@@ -641,14 +641,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 178,
-        "correct": 103,
-        "accuracy": 0.5787
+        "total": 184,
+        "correct": 109,
+        "accuracy": 0.5924
       },
       "yellow": {
-        "total": 330,
+        "total": 331,
         "correct": 206,
-        "accuracy": 0.6242
+        "accuracy": 0.6224
       },
       "red": {
         "total": 24,
@@ -663,8 +663,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 103,
-        "yellow": 104,
+        "green": 109,
+        "yellow": 105,
         "red": 10,
         "unknown": 0
       },
@@ -687,56 +687,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Guysborough-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 48,
-    "accuracy": 0.6154,
+    "total_evaluated": 79,
+    "correct": 49,
+    "accuracy": 0.6203,
     "all_evaluated": {
-      "total": 532,
-      "correct": 259,
-      "accuracy": 0.4868
+      "total": 539,
+      "correct": 265,
+      "accuracy": 0.4917
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 48,
-        "accuracy": 0.6154
+        "total": 79,
+        "correct": 49,
+        "accuracy": 0.6203
       },
       "2": {
-        "total": 77,
-        "correct": 39,
-        "accuracy": 0.5065
+        "total": 78,
+        "correct": 40,
+        "accuracy": 0.5128
       },
       "3": {
-        "total": 76,
-        "correct": 37,
-        "accuracy": 0.4868
+        "total": 77,
+        "correct": 38,
+        "accuracy": 0.4935
       },
       "4": {
-        "total": 75,
-        "correct": 34,
-        "accuracy": 0.4533
+        "total": 76,
+        "correct": 35,
+        "accuracy": 0.4605
       },
       "5": {
-        "total": 74,
-        "correct": 36,
-        "accuracy": 0.4865
+        "total": 75,
+        "correct": 37,
+        "accuracy": 0.4933
       },
       "6": {
-        "total": 73,
+        "total": 74,
         "correct": 26,
-        "accuracy": 0.3562
+        "accuracy": 0.3514
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 245,
-        "correct": 99,
-        "accuracy": 0.4041
+        "total": 252,
+        "correct": 105,
+        "accuracy": 0.4167
       },
       "yellow": {
         "total": 224,
@@ -756,14 +756,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 158,
-        "correct": 99,
-        "accuracy": 0.6266
+        "total": 164,
+        "correct": 105,
+        "accuracy": 0.6402
       },
       "yellow": {
-        "total": 341,
+        "total": 342,
         "correct": 157,
-        "accuracy": 0.4604
+        "accuracy": 0.4591
       },
       "red": {
         "total": 33,
@@ -778,8 +778,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 99,
-        "yellow": 128,
+        "green": 105,
+        "yellow": 129,
         "red": 18,
         "unknown": 0
       },
@@ -802,56 +802,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Halifax-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 48,
-    "accuracy": 0.6154,
+    "total_evaluated": 79,
+    "correct": 49,
+    "accuracy": 0.6203,
     "all_evaluated": {
-      "total": 532,
-      "correct": 308,
-      "accuracy": 0.5789
+      "total": 539,
+      "correct": 314,
+      "accuracy": 0.5826
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 48,
-        "accuracy": 0.6154
+        "total": 79,
+        "correct": 49,
+        "accuracy": 0.6203
       },
       "2": {
-        "total": 77,
-        "correct": 48,
-        "accuracy": 0.6234
+        "total": 78,
+        "correct": 49,
+        "accuracy": 0.6282
       },
       "3": {
-        "total": 76,
-        "correct": 45,
-        "accuracy": 0.5921
+        "total": 77,
+        "correct": 46,
+        "accuracy": 0.5974
       },
       "4": {
-        "total": 75,
-        "correct": 41,
-        "accuracy": 0.5467
+        "total": 76,
+        "correct": 42,
+        "accuracy": 0.5526
       },
       "5": {
-        "total": 74,
-        "correct": 44,
-        "accuracy": 0.5946
+        "total": 75,
+        "correct": 45,
+        "accuracy": 0.6
       },
       "6": {
-        "total": 73,
+        "total": 74,
         "correct": 37,
-        "accuracy": 0.5068
+        "accuracy": 0.5
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 203,
-        "correct": 77,
-        "accuracy": 0.3793
+        "total": 210,
+        "correct": 83,
+        "accuracy": 0.3952
       },
       "yellow": {
         "total": 287,
@@ -871,14 +871,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 126,
-        "correct": 77,
-        "accuracy": 0.6111
+        "total": 132,
+        "correct": 83,
+        "accuracy": 0.6288
       },
       "yellow": {
-        "total": 367,
+        "total": 368,
         "correct": 224,
-        "accuracy": 0.6104
+        "accuracy": 0.6087
       },
       "red": {
         "total": 39,
@@ -893,8 +893,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 77,
-        "yellow": 109,
+        "green": 83,
+        "yellow": 110,
         "red": 17,
         "unknown": 0
       },
@@ -917,56 +917,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Hants-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 42,
-    "accuracy": 0.5385,
+    "total_evaluated": 79,
+    "correct": 43,
+    "accuracy": 0.5443,
     "all_evaluated": {
-      "total": 532,
-      "correct": 282,
-      "accuracy": 0.5301
+      "total": 539,
+      "correct": 289,
+      "accuracy": 0.5362
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 42,
-        "accuracy": 0.5385
+        "total": 79,
+        "correct": 43,
+        "accuracy": 0.5443
       },
       "2": {
+        "total": 78,
+        "correct": 44,
+        "accuracy": 0.5641
+      },
+      "3": {
         "total": 77,
         "correct": 43,
         "accuracy": 0.5584
       },
-      "3": {
-        "total": 76,
-        "correct": 42,
-        "accuracy": 0.5526
-      },
       "4": {
-        "total": 75,
-        "correct": 39,
-        "accuracy": 0.52
+        "total": 76,
+        "correct": 40,
+        "accuracy": 0.5263
       },
       "5": {
-        "total": 74,
-        "correct": 34,
-        "accuracy": 0.4595
+        "total": 75,
+        "correct": 35,
+        "accuracy": 0.4667
       },
       "6": {
-        "total": 73,
-        "correct": 37,
-        "accuracy": 0.5068
+        "total": 74,
+        "correct": 38,
+        "accuracy": 0.5135
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 196,
-        "correct": 70,
-        "accuracy": 0.3571
+        "total": 203,
+        "correct": 77,
+        "accuracy": 0.3793
       },
       "yellow": {
         "total": 294,
@@ -986,9 +986,9 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 134,
-        "correct": 70,
-        "accuracy": 0.5224
+        "total": 141,
+        "correct": 77,
+        "accuracy": 0.5461
       },
       "yellow": {
         "total": 343,
@@ -1008,7 +1008,7 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 70,
+        "green": 77,
         "yellow": 108,
         "red": 18,
         "unknown": 0
@@ -1032,56 +1032,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Inverness-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 55,
-    "accuracy": 0.7051,
+    "total_evaluated": 79,
+    "correct": 56,
+    "accuracy": 0.7089,
     "all_evaluated": {
-      "total": 532,
-      "correct": 345,
-      "accuracy": 0.6485
+      "total": 539,
+      "correct": 350,
+      "accuracy": 0.6494
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 55,
-        "accuracy": 0.7051
+        "total": 79,
+        "correct": 56,
+        "accuracy": 0.7089
       },
       "2": {
-        "total": 77,
-        "correct": 51,
-        "accuracy": 0.6623
+        "total": 78,
+        "correct": 52,
+        "accuracy": 0.6667
       },
       "3": {
-        "total": 76,
-        "correct": 56,
-        "accuracy": 0.7368
+        "total": 77,
+        "correct": 57,
+        "accuracy": 0.7403
       },
       "4": {
-        "total": 75,
+        "total": 76,
         "correct": 48,
-        "accuracy": 0.64
+        "accuracy": 0.6316
       },
       "5": {
-        "total": 74,
+        "total": 75,
         "correct": 46,
-        "accuracy": 0.6216
+        "accuracy": 0.6133
       },
       "6": {
-        "total": 73,
-        "correct": 44,
-        "accuracy": 0.6027
+        "total": 74,
+        "correct": 45,
+        "accuracy": 0.6081
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 256,
-        "correct": 151,
-        "accuracy": 0.5898
+        "total": 263,
+        "correct": 156,
+        "accuracy": 0.5932
       },
       "yellow": {
         "total": 276,
@@ -1101,14 +1101,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 233,
-        "correct": 151,
-        "accuracy": 0.6481
+        "total": 238,
+        "correct": 156,
+        "accuracy": 0.6555
       },
       "yellow": {
-        "total": 299,
+        "total": 301,
         "correct": 194,
-        "accuracy": 0.6488
+        "accuracy": 0.6445
       },
       "red": {
         "total": 0,
@@ -1123,8 +1123,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 151,
-        "yellow": 105,
+        "green": 156,
+        "yellow": 107,
         "red": 0,
         "unknown": 0
       },
@@ -1147,56 +1147,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Kings-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 49,
-    "accuracy": 0.6282,
+    "total_evaluated": 79,
+    "correct": 50,
+    "accuracy": 0.6329,
     "all_evaluated": {
-      "total": 532,
-      "correct": 276,
-      "accuracy": 0.5188
+      "total": 539,
+      "correct": 283,
+      "accuracy": 0.525
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 49,
-        "accuracy": 0.6282
+        "total": 79,
+        "correct": 50,
+        "accuracy": 0.6329
       },
       "2": {
-        "total": 77,
-        "correct": 44,
-        "accuracy": 0.5714
+        "total": 78,
+        "correct": 45,
+        "accuracy": 0.5769
       },
       "3": {
-        "total": 76,
-        "correct": 40,
-        "accuracy": 0.5263
+        "total": 77,
+        "correct": 41,
+        "accuracy": 0.5325
       },
       "4": {
-        "total": 75,
-        "correct": 38,
-        "accuracy": 0.5067
+        "total": 76,
+        "correct": 39,
+        "accuracy": 0.5132
       },
       "5": {
-        "total": 74,
-        "correct": 36,
-        "accuracy": 0.4865
+        "total": 75,
+        "correct": 37,
+        "accuracy": 0.4933
       },
       "6": {
-        "total": 73,
-        "correct": 30,
-        "accuracy": 0.411
+        "total": 74,
+        "correct": 31,
+        "accuracy": 0.4189
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 210,
-        "correct": 83,
-        "accuracy": 0.3952
+        "total": 217,
+        "correct": 90,
+        "accuracy": 0.4147
       },
       "yellow": {
         "total": 273,
@@ -1216,9 +1216,9 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 153,
-        "correct": 83,
-        "accuracy": 0.5425
+        "total": 160,
+        "correct": 90,
+        "accuracy": 0.5625
       },
       "yellow": {
         "total": 311,
@@ -1238,7 +1238,7 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 83,
+        "green": 90,
         "yellow": 97,
         "red": 30,
         "unknown": 0
@@ -1262,56 +1262,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Lunenburg-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 47,
-    "accuracy": 0.6026,
+    "total_evaluated": 79,
+    "correct": 48,
+    "accuracy": 0.6076,
     "all_evaluated": {
-      "total": 532,
-      "correct": 267,
-      "accuracy": 0.5019
+      "total": 539,
+      "correct": 272,
+      "accuracy": 0.5046
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 47,
-        "accuracy": 0.6026
+        "total": 79,
+        "correct": 48,
+        "accuracy": 0.6076
       },
       "2": {
-        "total": 77,
-        "correct": 45,
-        "accuracy": 0.5844
+        "total": 78,
+        "correct": 46,
+        "accuracy": 0.5897
       },
       "3": {
-        "total": 76,
-        "correct": 41,
-        "accuracy": 0.5395
+        "total": 77,
+        "correct": 42,
+        "accuracy": 0.5455
       },
       "4": {
-        "total": 75,
-        "correct": 31,
-        "accuracy": 0.4133
+        "total": 76,
+        "correct": 32,
+        "accuracy": 0.4211
       },
       "5": {
+        "total": 75,
+        "correct": 34,
+        "accuracy": 0.4533
+      },
+      "6": {
         "total": 74,
         "correct": 33,
         "accuracy": 0.4459
-      },
-      "6": {
-        "total": 73,
-        "correct": 33,
-        "accuracy": 0.4521
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 224,
-        "correct": 78,
-        "accuracy": 0.3482
+        "total": 231,
+        "correct": 83,
+        "accuracy": 0.3593
       },
       "yellow": {
         "total": 266,
@@ -1331,14 +1331,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 145,
-        "correct": 78,
-        "accuracy": 0.5379
+        "total": 150,
+        "correct": 83,
+        "accuracy": 0.5533
       },
       "yellow": {
-        "total": 339,
+        "total": 341,
         "correct": 182,
-        "accuracy": 0.5369
+        "accuracy": 0.5337
       },
       "red": {
         "total": 48,
@@ -1353,8 +1353,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 78,
-        "yellow": 123,
+        "green": 83,
+        "yellow": 125,
         "red": 23,
         "unknown": 0
       },
@@ -1377,56 +1377,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Pictou-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 46,
-    "accuracy": 0.5897,
+    "total_evaluated": 79,
+    "correct": 47,
+    "accuracy": 0.5949,
     "all_evaluated": {
-      "total": 532,
-      "correct": 320,
-      "accuracy": 0.6015
+      "total": 539,
+      "correct": 327,
+      "accuracy": 0.6067
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 46,
-        "accuracy": 0.5897
+        "total": 79,
+        "correct": 47,
+        "accuracy": 0.5949
       },
       "2": {
-        "total": 77,
-        "correct": 51,
-        "accuracy": 0.6623
+        "total": 78,
+        "correct": 52,
+        "accuracy": 0.6667
       },
       "3": {
-        "total": 76,
-        "correct": 52,
-        "accuracy": 0.6842
+        "total": 77,
+        "correct": 53,
+        "accuracy": 0.6883
       },
       "4": {
-        "total": 75,
-        "correct": 41,
-        "accuracy": 0.5467
+        "total": 76,
+        "correct": 42,
+        "accuracy": 0.5526
       },
       "5": {
-        "total": 74,
-        "correct": 44,
-        "accuracy": 0.5946
+        "total": 75,
+        "correct": 45,
+        "accuracy": 0.6
       },
       "6": {
-        "total": 73,
-        "correct": 40,
-        "accuracy": 0.5479
+        "total": 74,
+        "correct": 41,
+        "accuracy": 0.5541
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 224,
-        "correct": 92,
-        "accuracy": 0.4107
+        "total": 231,
+        "correct": 99,
+        "accuracy": 0.4286
       },
       "yellow": {
         "total": 287,
@@ -1446,9 +1446,9 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 144,
-        "correct": 92,
-        "accuracy": 0.6389
+        "total": 151,
+        "correct": 99,
+        "accuracy": 0.6556
       },
       "yellow": {
         "total": 377,
@@ -1468,7 +1468,7 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 92,
+        "green": 99,
         "yellow": 129,
         "red": 3,
         "unknown": 0
@@ -1492,56 +1492,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Queens-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 43,
-    "accuracy": 0.5513,
+    "total_evaluated": 79,
+    "correct": 44,
+    "accuracy": 0.557,
     "all_evaluated": {
-      "total": 532,
-      "correct": 271,
-      "accuracy": 0.5094
+      "total": 539,
+      "correct": 277,
+      "accuracy": 0.5139
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 43,
-        "accuracy": 0.5513
+        "total": 79,
+        "correct": 44,
+        "accuracy": 0.557
       },
       "2": {
-        "total": 77,
-        "correct": 47,
-        "accuracy": 0.6104
+        "total": 78,
+        "correct": 48,
+        "accuracy": 0.6154
       },
       "3": {
-        "total": 76,
-        "correct": 43,
-        "accuracy": 0.5658
+        "total": 77,
+        "correct": 44,
+        "accuracy": 0.5714
       },
       "4": {
-        "total": 75,
-        "correct": 34,
-        "accuracy": 0.4533
+        "total": 76,
+        "correct": 35,
+        "accuracy": 0.4605
       },
       "5": {
-        "total": 74,
-        "correct": 31,
-        "accuracy": 0.4189
+        "total": 75,
+        "correct": 32,
+        "accuracy": 0.4267
       },
       "6": {
-        "total": 73,
+        "total": 74,
         "correct": 29,
-        "accuracy": 0.3973
+        "accuracy": 0.3919
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 217,
-        "correct": 80,
-        "accuracy": 0.3687
+        "total": 224,
+        "correct": 86,
+        "accuracy": 0.3839
       },
       "yellow": {
         "total": 273,
@@ -1561,14 +1561,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 147,
-        "correct": 80,
-        "accuracy": 0.5442
+        "total": 153,
+        "correct": 86,
+        "accuracy": 0.5621
       },
       "yellow": {
-        "total": 342,
+        "total": 343,
         "correct": 186,
-        "accuracy": 0.5439
+        "accuracy": 0.5423
       },
       "red": {
         "total": 43,
@@ -1583,8 +1583,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 80,
-        "yellow": 120,
+        "green": 86,
+        "yellow": 121,
         "red": 17,
         "unknown": 0
       },
@@ -1607,56 +1607,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Richmond-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 53,
-    "accuracy": 0.6795,
+    "total_evaluated": 79,
+    "correct": 54,
+    "accuracy": 0.6835,
     "all_evaluated": {
-      "total": 532,
-      "correct": 313,
-      "accuracy": 0.5883
+      "total": 539,
+      "correct": 317,
+      "accuracy": 0.5881
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 53,
-        "accuracy": 0.6795
+        "total": 79,
+        "correct": 54,
+        "accuracy": 0.6835
       },
       "2": {
-        "total": 77,
-        "correct": 50,
-        "accuracy": 0.6494
+        "total": 78,
+        "correct": 51,
+        "accuracy": 0.6538
       },
       "3": {
-        "total": 76,
-        "correct": 45,
-        "accuracy": 0.5921
+        "total": 77,
+        "correct": 46,
+        "accuracy": 0.5974
       },
       "4": {
-        "total": 75,
+        "total": 76,
         "correct": 47,
-        "accuracy": 0.6267
+        "accuracy": 0.6184
       },
       "5": {
+        "total": 75,
+        "correct": 37,
+        "accuracy": 0.4933
+      },
+      "6": {
         "total": 74,
         "correct": 37,
         "accuracy": 0.5
-      },
-      "6": {
-        "total": 73,
-        "correct": 37,
-        "accuracy": 0.5068
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 288,
-        "correct": 108,
-        "accuracy": 0.375
+        "total": 295,
+        "correct": 112,
+        "accuracy": 0.3797
       },
       "yellow": {
         "total": 244,
@@ -1676,14 +1676,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 145,
-        "correct": 108,
-        "accuracy": 0.7448
+        "total": 149,
+        "correct": 112,
+        "accuracy": 0.7517
       },
       "yellow": {
-        "total": 385,
+        "total": 388,
         "correct": 205,
-        "accuracy": 0.5325
+        "accuracy": 0.5284
       },
       "red": {
         "total": 2,
@@ -1698,8 +1698,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 108,
-        "yellow": 180,
+        "green": 112,
+        "yellow": 183,
         "red": 0,
         "unknown": 0
       },
@@ -1722,56 +1722,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Shelburne-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
+    "total_evaluated": 79,
     "correct": 39,
-    "accuracy": 0.5,
+    "accuracy": 0.4937,
     "all_evaluated": {
-      "total": 532,
-      "correct": 280,
-      "accuracy": 0.5263
+      "total": 539,
+      "correct": 282,
+      "accuracy": 0.5232
     },
     "by_horizon": {
       "1": {
-        "total": 78,
+        "total": 79,
         "correct": 39,
-        "accuracy": 0.5
+        "accuracy": 0.4937
       },
       "2": {
-        "total": 77,
-        "correct": 43,
-        "accuracy": 0.5584
+        "total": 78,
+        "correct": 44,
+        "accuracy": 0.5641
       },
       "3": {
-        "total": 76,
-        "correct": 47,
-        "accuracy": 0.6184
+        "total": 77,
+        "correct": 48,
+        "accuracy": 0.6234
       },
       "4": {
-        "total": 75,
+        "total": 76,
         "correct": 43,
-        "accuracy": 0.5733
+        "accuracy": 0.5658
       },
       "5": {
-        "total": 74,
+        "total": 75,
         "correct": 34,
-        "accuracy": 0.4595
+        "accuracy": 0.4533
       },
       "6": {
-        "total": 73,
+        "total": 74,
         "correct": 32,
-        "accuracy": 0.4384
+        "accuracy": 0.4324
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 238,
-        "correct": 82,
-        "accuracy": 0.3445
+        "total": 245,
+        "correct": 84,
+        "accuracy": 0.3429
       },
       "yellow": {
         "total": 273,
@@ -1791,14 +1791,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 150,
-        "correct": 82,
-        "accuracy": 0.5467
+        "total": 152,
+        "correct": 84,
+        "accuracy": 0.5526
       },
       "yellow": {
-        "total": 370,
+        "total": 375,
         "correct": 198,
-        "accuracy": 0.5351
+        "accuracy": 0.528
       },
       "red": {
         "total": 12,
@@ -1813,8 +1813,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 82,
-        "yellow": 152,
+        "green": 84,
+        "yellow": 157,
         "red": 4,
         "unknown": 0
       },
@@ -1837,56 +1837,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Victoria-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 53,
-    "accuracy": 0.6795,
+    "total_evaluated": 79,
+    "correct": 54,
+    "accuracy": 0.6835,
     "all_evaluated": {
-      "total": 532,
-      "correct": 320,
-      "accuracy": 0.6015
+      "total": 539,
+      "correct": 327,
+      "accuracy": 0.6067
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 53,
-        "accuracy": 0.6795
+        "total": 79,
+        "correct": 54,
+        "accuracy": 0.6835
       },
       "2": {
-        "total": 77,
-        "correct": 53,
-        "accuracy": 0.6883
+        "total": 78,
+        "correct": 54,
+        "accuracy": 0.6923
       },
       "3": {
-        "total": 76,
-        "correct": 49,
-        "accuracy": 0.6447
+        "total": 77,
+        "correct": 50,
+        "accuracy": 0.6494
       },
       "4": {
-        "total": 75,
-        "correct": 44,
-        "accuracy": 0.5867
+        "total": 76,
+        "correct": 45,
+        "accuracy": 0.5921
       },
       "5": {
-        "total": 74,
-        "correct": 37,
-        "accuracy": 0.5
+        "total": 75,
+        "correct": 38,
+        "accuracy": 0.5067
       },
       "6": {
-        "total": 73,
-        "correct": 42,
-        "accuracy": 0.5753
+        "total": 74,
+        "correct": 43,
+        "accuracy": 0.5811
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 260,
-        "correct": 118,
-        "accuracy": 0.4538
+        "total": 267,
+        "correct": 125,
+        "accuracy": 0.4682
       },
       "yellow": {
         "total": 272,
@@ -1906,9 +1906,9 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 188,
-        "correct": 118,
-        "accuracy": 0.6277
+        "total": 195,
+        "correct": 125,
+        "accuracy": 0.641
       },
       "yellow": {
         "total": 344,
@@ -1928,7 +1928,7 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 118,
+        "green": 125,
         "yellow": 142,
         "red": 0,
         "unknown": 0
@@ -1952,56 +1952,56 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   },
   "Yarmouth-County": {
     "version": "4.1",
     "primary_metric": "one_day_ahead",
-    "total_evaluated": 78,
-    "correct": 38,
-    "accuracy": 0.4872,
+    "total_evaluated": 79,
+    "correct": 39,
+    "accuracy": 0.4937,
     "all_evaluated": {
-      "total": 532,
-      "correct": 284,
-      "accuracy": 0.5338
+      "total": 539,
+      "correct": 288,
+      "accuracy": 0.5343
     },
     "by_horizon": {
       "1": {
-        "total": 78,
-        "correct": 38,
-        "accuracy": 0.4872
+        "total": 79,
+        "correct": 39,
+        "accuracy": 0.4937
       },
       "2": {
-        "total": 77,
-        "correct": 43,
-        "accuracy": 0.5584
+        "total": 78,
+        "correct": 44,
+        "accuracy": 0.5641
       },
       "3": {
-        "total": 76,
-        "correct": 43,
-        "accuracy": 0.5658
+        "total": 77,
+        "correct": 44,
+        "accuracy": 0.5714
       },
       "4": {
-        "total": 75,
-        "correct": 43,
-        "accuracy": 0.5733
+        "total": 76,
+        "correct": 44,
+        "accuracy": 0.5789
       },
       "5": {
-        "total": 74,
+        "total": 75,
         "correct": 39,
-        "accuracy": 0.527
+        "accuracy": 0.52
       },
       "6": {
-        "total": 73,
+        "total": 74,
         "correct": 36,
-        "accuracy": 0.4932
+        "accuracy": 0.4865
       }
     },
     "by_actual_level": {
       "green": {
-        "total": 217,
-        "correct": 73,
-        "accuracy": 0.3364
+        "total": 224,
+        "correct": 77,
+        "accuracy": 0.3438
       },
       "yellow": {
         "total": 294,
@@ -2021,14 +2021,14 @@
     },
     "by_predicted_level": {
       "green": {
-        "total": 142,
-        "correct": 73,
-        "accuracy": 0.5141
+        "total": 146,
+        "correct": 77,
+        "accuracy": 0.5274
       },
       "yellow": {
-        "total": 365,
+        "total": 368,
         "correct": 211,
-        "accuracy": 0.5781
+        "accuracy": 0.5734
       },
       "red": {
         "total": 25,
@@ -2043,8 +2043,8 @@
     },
     "confusion_matrix": {
       "green": {
-        "green": 73,
-        "yellow": 134,
+        "green": 77,
+        "yellow": 137,
         "red": 10,
         "unknown": 0
       },
@@ -2067,6 +2067,6 @@
         "unknown": 0
       }
     },
-    "updated_at": "2026-09-19T14:01:29-03:00"
+    "updated_at": "2026-09-20T14:01:25-03:00"
   }
 }
