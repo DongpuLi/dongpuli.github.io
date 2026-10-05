@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-04",
-  "updated_at": "2026-10-04T14:01:14-03:00",
+  "date": "2026-10-05",
+  "updated_at": "2026-10-05T14:01:18-03:00",
   "timezone": "America/Halifax",
   "site_mode": "active",
   "county_id": "Halifax-County",
@@ -8,5 +8,5 @@
   "level": "green",
   "status": "Burning is allowed between 2:00 pm and 8:00 am",
   "source": "https://novascotia.ca/burnsafe/",
-  "official_updated_text": "04 October 2026 at 2:00 pm"
+  "official_updated_text": "05 October 2026 at 2:00 pm"
 }
