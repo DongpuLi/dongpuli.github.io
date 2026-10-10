@@ -1,44 +1,44 @@
 {
   "version": "4.1",
   "primary_metric": "one_day_ahead",
-  "total_evaluated": 98,
+  "total_evaluated": 99,
   "correct": 62,
-  "accuracy": 0.6327,
+  "accuracy": 0.6263,
   "all_evaluated": {
-    "total": 672,
-    "correct": 394,
-    "accuracy": 0.5863
+    "total": 679,
+    "correct": 395,
+    "accuracy": 0.5817
   },
   "by_horizon": {
     "1": {
-      "total": 98,
+      "total": 99,
       "correct": 62,
-      "accuracy": 0.6327
+      "accuracy": 0.6263
     },
     "2": {
+      "total": 98,
+      "correct": 58,
+      "accuracy": 0.5918
+    },
+    "3": {
       "total": 97,
       "correct": 58,
       "accuracy": 0.5979
     },
-    "3": {
-      "total": 96,
-      "correct": 58,
-      "accuracy": 0.6042
-    },
     "4": {
-      "total": 95,
+      "total": 96,
       "correct": 53,
-      "accuracy": 0.5579
+      "accuracy": 0.5521
     },
     "5": {
-      "total": 94,
+      "total": 95,
       "correct": 58,
-      "accuracy": 0.617
+      "accuracy": 0.6105
     },
     "6": {
-      "total": 93,
+      "total": 94,
       "correct": 49,
-      "accuracy": 0.5269
+      "accuracy": 0.5213
     }
   },
   "by_actual_level": {
@@ -48,9 +48,9 @@
       "accuracy": 0.4983
     },
     "yellow": {
-      "total": 329,
-      "correct": 237,
-      "accuracy": 0.7204
+      "total": 336,
+      "correct": 238,
+      "accuracy": 0.7083
     },
     "red": {
       "total": 42,
@@ -65,14 +65,14 @@
   },
   "by_predicted_level": {
     "green": {
-      "total": 228,
+      "total": 234,
       "correct": 150,
-      "accuracy": 0.6579
+      "accuracy": 0.641
     },
     "yellow": {
-      "total": 405,
-      "correct": 237,
-      "accuracy": 0.5852
+      "total": 406,
+      "correct": 238,
+      "accuracy": 0.5862
     },
     "red": {
       "total": 39,
@@ -93,8 +93,8 @@
       "unknown": 0
     },
     "yellow": {
-      "green": 77,
-      "yellow": 237,
+      "green": 83,
+      "yellow": 238,
       "red": 15,
       "unknown": 0
     },
@@ -111,5 +111,5 @@
       "unknown": 0
     }
   },
-  "updated_at": "2026-10-09T14:01:17-03:00"
+  "updated_at": "2026-10-10T14:01:14-03:00"
 }
