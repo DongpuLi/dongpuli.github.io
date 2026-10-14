@@ -1,51 +1,51 @@
 {
   "version": "4.1",
   "primary_metric": "one_day_ahead",
-  "total_evaluated": 102,
-  "correct": 64,
-  "accuracy": 0.6275,
+  "total_evaluated": 103,
+  "correct": 65,
+  "accuracy": 0.6311,
   "all_evaluated": {
-    "total": 700,
-    "correct": 408,
-    "accuracy": 0.5829
+    "total": 707,
+    "correct": 414,
+    "accuracy": 0.5856
   },
   "by_horizon": {
     "1": {
-      "total": 102,
-      "correct": 64,
-      "accuracy": 0.6275
+      "total": 103,
+      "correct": 65,
+      "accuracy": 0.6311
     },
     "2": {
+      "total": 102,
+      "correct": 61,
+      "accuracy": 0.598
+    },
+    "3": {
       "total": 101,
       "correct": 60,
       "accuracy": 0.5941
     },
-    "3": {
-      "total": 100,
-      "correct": 59,
-      "accuracy": 0.59
-    },
     "4": {
-      "total": 99,
-      "correct": 55,
-      "accuracy": 0.5556
+      "total": 100,
+      "correct": 56,
+      "accuracy": 0.56
     },
     "5": {
-      "total": 98,
-      "correct": 61,
-      "accuracy": 0.6224
+      "total": 99,
+      "correct": 62,
+      "accuracy": 0.6263
     },
     "6": {
-      "total": 97,
-      "correct": 51,
-      "accuracy": 0.5258
+      "total": 98,
+      "correct": 52,
+      "accuracy": 0.5306
     }
   },
   "by_actual_level": {
     "green": {
-      "total": 315,
-      "correct": 161,
-      "accuracy": 0.5111
+      "total": 322,
+      "correct": 167,
+      "accuracy": 0.5186
     },
     "yellow": {
       "total": 343,
@@ -65,14 +65,14 @@
   },
   "by_predicted_level": {
     "green": {
-      "total": 249,
-      "correct": 161,
-      "accuracy": 0.6466
+      "total": 255,
+      "correct": 167,
+      "accuracy": 0.6549
     },
     "yellow": {
-      "total": 411,
+      "total": 412,
       "correct": 240,
-      "accuracy": 0.5839
+      "accuracy": 0.5825
     },
     "red": {
       "total": 40,
@@ -87,8 +87,8 @@
   },
   "confusion_matrix": {
     "green": {
-      "green": 161,
-      "yellow": 137,
+      "green": 167,
+      "yellow": 138,
       "red": 17,
       "unknown": 0
     },
@@ -111,5 +111,5 @@
       "unknown": 0
     }
   },
-  "updated_at": "2026-10-13T14:01:22-03:00"
+  "updated_at": "2026-10-14T14:01:22-03:00"
 }
