@@ -1,3 +1,4 @@
+/* (existing style.css content unchanged until end) */
 :root {
   --card: rgba(18, 18, 22, 0.68);
   --card-strong: rgba(18, 18, 22, 0.74);
@@ -729,4 +730,9 @@ body.status-offseason {
 
 .fwi-unknown {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+/* Hide Selected county primary card in offseason/static archive mode */
+body.status-offseason .primary-card {
+  display: none !important;
 }
