@@ -1,0 +1,63 @@
+name: Season reminders
+
+on:
+  schedule:
+    # Halifax local 09:00 -> UTC 12:00
+    - cron: '0 12 14 3 *'
+    - cron: '0 12 16 10 *'
+  workflow_dispatch:
+
+jobs:
+  send_email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Determine reminder subject and body (Halifax local date)
+        run: |
+          set -euo pipefail
+          HALIFAX_MD=$(TZ=America/Halifax date +'%m-%d')
+          echo "HALIFAX_MD=$HALIFAX_MD"
+
+          if [ "$HALIFAX_MD" = "03-14" ]; then
+            echo "EMAIL_SUBJECT=BurnSafe Tracker — Start of wildfire season: enable updates" >> "$GITHUB_ENV"
+            cat <<'EOF' > body.txt
+Hello,
+
+This is an automated reminder from your BurnSafe Tracker to ENABLE daily updates for wildfire season.
+
+Tasks you might perform:
+- Re-enable scheduled data collection and parsing jobs
+- Confirm latest BurnSafe source URLs
+- Verify CI/deploy pipeline is prepared for daily runs
+
+Regards,
+BurnSafe Tracker
+EOF
+          else
+            echo "EMAIL_SUBJECT=BurnSafe Tracker — End of wildfire season: disable updates" >> "$GITHUB_ENV"
+            cat <<'EOF' > body.txt
+Hello,
+
+This is an automated reminder from your BurnSafe Tracker to DISABLE daily updates — wildfire season has ended.
+
+Tasks you might perform:
+- Disable or pause scheduled data collection jobs
+- Archive season data if needed
+- Verify site displays static archive mode
+
+Regards,
+BurnSafe Tracker
+EOF
+          fi
+
+      - name: Send reminder email (SMTP)
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: ${{ env.EMAIL_SUBJECT }}
+          to: dr.dongpu@gmail.com
+          from: ${{ secrets.SMTP_FROM }}
+          body: ${{ github.workspace }}/body.txt
