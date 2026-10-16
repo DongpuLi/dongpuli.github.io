@@ -49,6 +49,18 @@ function getDisplayStatus(county) {
   const hour = now.getHours();
   const officialLevel = normalizeLevel(county?.level);
 
+  // If site is in static archive / offseason mode, show stored official status
+  // (we hide the selected-county card in UI when in offseason).
+  if (siteMode === "offseason") {
+    return {
+      displayLevel: "green",
+      officialLevel,
+      status: `Stored official status: ${emoji(officialLevel)} ${label(officialLevel)}`,
+      window:
+        "Static archive mode — wildfire season has ended. Display shows stored official status.",
+    };
+  }
+
   if (hour >= 8 && hour < 14) {
     return {
       displayLevel: "red",
@@ -107,6 +119,10 @@ function setTheme(level) {
     const predictionCard = document.getElementById("prediction-card");
     if (predictionCard) predictionCard.style.display = "none";
 
+    // Hide the selected county indicator card entirely in offseason/static archive mode
+    const selectedCard = document.querySelector(".primary-card");
+    if (selectedCard) selectedCard.style.display = "none";
+
     return;
   }
 
@@ -121,6 +137,10 @@ function setTheme(level) {
 
   const predictionCard = document.getElementById("prediction-card");
   if (predictionCard) predictionCard.style.display = "";
+
+  // Ensure the selected county card is visible during active season
+  const selectedCard = document.querySelector(".primary-card");
+  if (selectedCard) selectedCard.style.display = "";
 }
 
 function formatDate(value) {
